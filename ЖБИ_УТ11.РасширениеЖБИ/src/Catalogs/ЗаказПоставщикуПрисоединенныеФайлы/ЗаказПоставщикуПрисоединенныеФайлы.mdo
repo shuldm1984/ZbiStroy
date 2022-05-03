@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fbfadefd-84e4-4a9a-ad89-13e6208199f6" extendedConfigurationObject="32a47213-f434-4bfc-8631-20cd83ac8bff">
+  <producedTypes>
+    <objectType typeId="3cb3fc84-d956-4078-83ea-cbe622ed7561" valueTypeId="1ec949f4-a390-4a7f-b66a-710aa8b20123"/>
+    <refType typeId="f54fadd7-042d-49f0-8ebb-f9d170baefd2" valueTypeId="cc10985d-a620-4232-acbd-596538c849d2"/>
+    <selectionType typeId="7d1c6b1d-6228-4653-8307-d25ba7adad84" valueTypeId="d3fcd050-e26e-444f-ac12-0ca7ad257528"/>
+    <listType typeId="a0fa85e6-d156-473b-a1b1-62cedf702522" valueTypeId="f5f5bae1-bbf0-46e1-ac6a-2c5938f18e5e"/>
+    <managerType typeId="e4924598-50ce-4510-8939-439df3c76eb4" valueTypeId="14d10793-d278-44ee-84c3-f1cc854452cb"/>
+  </producedTypes>
+  <name>ЗаказПоставщикуПрисоединенныеФайлы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="7a37ba2d-934d-4368-bac8-1b03730cf237" extendedConfigurationObject="6325075d-a235-4ff0-8037-b9ca608206b5">
+    <name>ВладелецФайла</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказПоставщику</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

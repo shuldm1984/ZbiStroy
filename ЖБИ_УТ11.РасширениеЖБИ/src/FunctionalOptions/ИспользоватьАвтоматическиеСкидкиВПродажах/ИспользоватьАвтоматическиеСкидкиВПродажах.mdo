@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6dfe4722-f1ab-461f-a1fd-277ad567e972" extendedConfigurationObject="4b7be386-7ae3-4d78-a8ae-55f2cab574d8">
+  <name>ИспользоватьАвтоматическиеСкидкиВПродажах</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:FunctionalOptionExtension">
+    <location>Checked</location>
+  </extension>
+  <location>Constant.ИспользоватьАвтоматическиеСкидкиВПродажах</location>
+</mdclass:FunctionalOption>

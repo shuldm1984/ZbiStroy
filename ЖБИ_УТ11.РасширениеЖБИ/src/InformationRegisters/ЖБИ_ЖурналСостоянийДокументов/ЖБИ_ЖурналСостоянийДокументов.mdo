@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb2668e1-a7a1-4aea-bd42-aab27d9ac261">
+  <producedTypes>
+    <selectionType typeId="80460189-0a20-4cec-ba3a-ab8a300e3853" valueTypeId="64b3bfd2-9970-40f8-a67b-9a0d0a3c77bb"/>
+    <listType typeId="f2a8959b-b223-4370-b7da-3bc1c7efba54" valueTypeId="25aa81be-1def-4c14-a877-8d59535b6c45"/>
+    <managerType typeId="d6ad9de6-f5b8-4d9c-a55d-996d30a4ecc4" valueTypeId="62c7f2a8-55af-472d-9521-4f1de299026b"/>
+    <recordSetType typeId="da6c2b89-31a2-4aae-80c4-51c3caf69694" valueTypeId="d0ec6fb6-e345-4cf5-babf-1c280550cce7"/>
+    <recordKeyType typeId="256734cd-de8a-4722-ac7c-6e7d164ce7f3" valueTypeId="b4cc0817-4517-4427-8ede-d870fd6cdd00"/>
+    <recordType typeId="a757eb05-0d5e-4fcf-99b6-02efb7366ffc" valueTypeId="d5eeb28e-07e9-45c9-8dbe-60df72a2436a"/>
+    <recordManagerType typeId="af8b4432-581a-4a94-9aba-4af5f0588a19" valueTypeId="05b72e08-138f-4300-9bca-0e463f40cf83"/>
+  </producedTypes>
+  <name>ЖБИ_ЖурналСостоянийДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Журнал состояний документов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="efd3e243-f2bc-4612-b91b-dd3176173ebe">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <comment>Состояние</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>35</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="4ad86d1c-2385-430e-9dca-265e7c5d49d9">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <comment>Автор</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b2c9870c-afb7-40d5-b27d-35185f0332d4">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>Комментарий</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="8ab2f7a8-8e02-4198-9d8a-16b18b6551da">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment>Объект</comment>
+    <type>
+      <types>DocumentRef.ЖБИ_ЗаявкиПокупателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

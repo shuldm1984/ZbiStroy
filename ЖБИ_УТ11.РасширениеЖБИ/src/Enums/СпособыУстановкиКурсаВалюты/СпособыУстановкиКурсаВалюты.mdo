@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c303fa5b-8b5f-4309-b7bb-aad04e2f5da1">
+  <producedTypes>
+    <refType typeId="c687e3e5-ced8-4cc9-a65b-73ace28d97d5" valueTypeId="9f0ad355-91b4-404f-9024-6a15e5ea7a97"/>
+    <listType typeId="5d007f9d-2cc8-4bf0-9a70-52a82d89acbe" valueTypeId="d7d8912d-b7b1-46c5-84c8-65f0f658a352"/>
+    <managerType typeId="166ed1e0-bb6b-421a-89f6-fc26e6d9e98f" valueTypeId="d1aa5159-730c-4a1f-bc2f-ec99a7042fd7"/>
+  </producedTypes>
+  <name>СпособыУстановкиКурсаВалюты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="9b7a734c-d54f-4a03-89a7-361a557440dc">
+    <name>НаценкаНаКурсДругойВалюты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="4d996884-8289-4d5e-a77e-f5d071b15309">
+    <name>РучнойВвод</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a86d3a1f-a72d-4912-9327-9ccc8ddbe9d5">
+    <name>ЗагрузкаИзИнтернета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b4a8bc4e-4937-4ec1-b20c-2d9c02362f1f">
+    <name>РасчетПоФормуле</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

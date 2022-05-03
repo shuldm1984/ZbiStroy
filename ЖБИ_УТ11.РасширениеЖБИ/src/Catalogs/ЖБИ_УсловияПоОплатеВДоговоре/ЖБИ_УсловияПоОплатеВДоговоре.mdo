@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f482819-98cc-4457-9368-00f09665e7d7">
+  <producedTypes>
+    <objectType typeId="f6aa1fdf-81b0-432e-abb1-a0e982f9b122" valueTypeId="4eeabad7-481e-4ffb-93f9-21f26dc017ad"/>
+    <refType typeId="e3cb67bc-b7d5-488e-bbe6-4895304a9817" valueTypeId="5aed080c-9442-4e3b-8144-f43d773392c3"/>
+    <selectionType typeId="7ca3feef-1f5d-4b7b-acf1-45eae97ad4b9" valueTypeId="f8a17839-35ea-4a41-93fe-6e50ca02273c"/>
+    <listType typeId="4daeadfe-bcfa-4c4e-bb9e-4ec27627b71f" valueTypeId="427a65ee-3907-492b-a0df-feb8bde7c8c0"/>
+    <managerType typeId="607e1342-d7dd-435a-9da2-b9ed622ff5f4" valueTypeId="217f689b-a991-4658-9328-08e88e021c9e"/>
+  </producedTypes>
+  <name>ЖБИ_УсловияПоОплатеВДоговоре</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Условия по оплате в договоре</value>
+  </synonym>
+  <comment>ЖБИ - Условия по оплате в договоре</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЖБИ_УсловияПоОплатеВДоговоре.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЖБИ_УсловияПоОплатеВДоговоре.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>128</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЖБИ_УсловияПоОплатеВДоговоре.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЖБИ_УсловияПоОплатеВДоговоре.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ЖБИ_УсловияПоОплатеВДоговоре.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="22c0f496-890d-42c0-a22b-93f5120f6de9">
+    <name>УсловиеВДоговоре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие в договоре</value>
+    </synonym>
+    <comment>Условие в договоре</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5a3f0549-160c-432e-b947-7b0b5e1bb6be">
+    <name>СлужебныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебный код</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a710e866-ff2a-4c74-b3f2-76299584d563">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d218e7ee-d796-46c8-ab87-3e78dc5702ac">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9006c7e7-3f9a-4df4-819b-4a3de94c8e5b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

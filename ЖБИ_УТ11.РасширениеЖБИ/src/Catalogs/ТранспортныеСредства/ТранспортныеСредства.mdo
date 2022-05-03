@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e05e6b67-df59-4af4-b552-f19ce56297d1">
+  <producedTypes>
+    <objectType typeId="4a97c2a4-378f-4658-9b18-a6e7b4217622" valueTypeId="f5828f5f-05e6-4f16-92b0-73a09db9bfea"/>
+    <refType typeId="fb35541f-3ee3-4a38-a694-620962d7afba" valueTypeId="450eb047-f514-485f-abb7-6c02174e04c4"/>
+    <selectionType typeId="d260dcbb-362a-408e-bc75-90b601be59ae" valueTypeId="5b041fa1-33fd-4b83-add7-803a47958dc9"/>
+    <listType typeId="d91365c8-cc02-4785-a7a4-8f2772fd24ae" valueTypeId="f1ee9166-3804-432d-827b-47eec10ca9b2"/>
+    <managerType typeId="89a800fe-6658-462c-85a1-daf2a141dc60" valueTypeId="31a8ac8e-be4c-4fa9-9111-98e61f6a4405"/>
+  </producedTypes>
+  <name>ТранспортныеСредства</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <codeLength>12</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <attributes uuid="a34e2f7d-a1f9-484f-8ba1-0c06438a5902">
+    <name>ЖБИ_МаркаПрицепа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка прицепа</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.ЖБИ_МаркаПрицепа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a1eafdc0-b5ea-413b-8373-cb4fb500ed3c" extendedConfigurationObject="a98e1dad-f67e-427d-b4c0-75823355a91a">
+    <name>Марка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="7e573260-f860-4c1d-b364-fcab5a4bed5c" extendedConfigurationObject="c1b8b999-97c0-4929-9d40-3759f0cd2781">
+    <name>Тип</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ТипыТранспортныхСредств</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="c20bfe6e-cc96-465b-b19f-2a2ea9971ee3" extendedConfigurationObject="e9d49dca-ab40-4711-bc1a-31cf34db1775">
+    <name>ВидПеревозки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="8d591240-dc87-4833-af49-ee0283aaf596" extendedConfigurationObject="2ecceaeb-6e52-41b9-9944-ce5c0f4565b6">
+    <name>ГрузоподъемностьВТоннах</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>9</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="6f7ea557-5798-487a-9918-8e5c18b5ae28" extendedConfigurationObject="df7d401f-11d1-48c4-90fa-91bdcfd4e083">
+    <name>ВместимостьВКубическихМетрах</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>9</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="27991406-9848-4fc2-a5e6-4260a8ce8e6c" extendedConfigurationObject="0cd5695f-65d9-46ba-bd70-48ecf129005a">
+    <name>ЛицензионнаяКарточкаСерия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>2</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="774d57b7-1ada-49f8-a6f0-ca15bc4c10a8" extendedConfigurationObject="ae19c8cb-07f8-4772-9544-355f04d78eca">
+    <name>ЛицензионнаяКарточкаНомер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>6</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="8030866a-832b-4c09-8b42-51c74a23b407" extendedConfigurationObject="dc9aa5e3-0782-4522-8810-ede20baa91e9">
+    <name>ЛицензионнаяКарточкаВид</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>12</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="66c259b7-1e90-4cdf-be38-c9dc828c83b9" extendedConfigurationObject="62c07a5f-dcf9-490b-b754-fcfb40b91d21">
+    <name>ЛицензионнаяКарточкаРегистрационныйНомер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>12</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="7b3cb7fd-8995-4f94-9996-4b93f923ff70" extendedConfigurationObject="d75f8b9c-024d-470a-a65d-d51570645a6f">
+    <name>Прицеп</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="daaa46ad-6001-4b92-b443-b267cbf37727" extendedConfigurationObject="4c0554ad-9add-421a-98ce-dcbc97f158e8">
+    <name>ГосударственныйНомерПрицепа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>12</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="492300c3-4d73-4ad2-9171-3a05015568e0">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

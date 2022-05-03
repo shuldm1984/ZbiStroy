@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f731d699-e5d6-4b99-8f80-3206a5c0c4a7">
+  <name>ЖБИ_Site</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Обмен с сайтом магазин</value>
+  </synonym>
+  <comment>ЖБИ - Обмен с сайтом магазин</comment>
+  <rootURL>exchange</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>8</sessionMaxAge>
+  <urlTemplates uuid="4bf43e3c-dbba-46cd-85a9-2b113c14f860">
+    <name>Getdata</name>
+    <synonym>
+      <key>ru</key>
+      <value>getdata</value>
+    </synonym>
+    <comment>getdata</comment>
+    <template>/getdata</template>
+    <methods uuid="9272ca0b-bc3d-4400-bc04-c0d69bacea03">
+      <name>Execute</name>
+      <synonym>
+        <key>ru</key>
+        <value>Execute</value>
+      </synonym>
+      <comment>Execute</comment>
+      <httpMethod>POST</httpMethod>
+      <handler>GetdataExecute</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

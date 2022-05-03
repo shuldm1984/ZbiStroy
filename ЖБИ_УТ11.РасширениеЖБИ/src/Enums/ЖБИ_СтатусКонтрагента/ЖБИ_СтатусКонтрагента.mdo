@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ef130f4-a80b-42bf-ab1d-d8d34777276c">
+  <producedTypes>
+    <refType typeId="457dc73b-8aa2-45cc-b674-b1f43e5e1ceb" valueTypeId="4eeac265-11ef-421f-be79-290af08f89c2"/>
+    <listType typeId="132d17fa-4961-477c-94e4-c0cd49d7183d" valueTypeId="d9ed752f-d01c-42bc-a2ac-b28a2137d9ec"/>
+    <managerType typeId="9d9945ba-1a37-459c-b0ba-c0958a8a3122" valueTypeId="85490b7f-b576-4cb2-ae7f-a5b4ee09d135"/>
+  </producedTypes>
+  <name>ЖБИ_СтатусКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Статус контрагента</value>
+  </synonym>
+  <comment>ЖБИ - Статус контрагента</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="74efc3de-9d90-430a-baed-e03728d0ccc0">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+    <comment>В работе</comment>
+  </enumValues>
+  <enumValues uuid="632504be-f5ac-4d59-8d66-70410b1c5c6a">
+    <name>НеВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не в работе</value>
+    </synonym>
+    <comment>Не в работе</comment>
+  </enumValues>
+  <enumValues uuid="c435083d-3688-4722-8661-4dba8d3a814a">
+    <name>ВПроработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>В проработке</value>
+    </synonym>
+    <comment>В проработке</comment>
+  </enumValues>
+</mdclass:Enum>

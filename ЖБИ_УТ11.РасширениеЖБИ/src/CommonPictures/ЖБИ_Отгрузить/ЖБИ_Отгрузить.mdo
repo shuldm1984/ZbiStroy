@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ace2309a-e999-4e52-b3e8-b7cefd3da58f">
+  <name>ЖБИ_Отгрузить</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Отгрузить</value>
+  </synonym>
+</mdclass:CommonPicture>

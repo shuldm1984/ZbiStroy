@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dc44adde-0812-4e4a-8517-272aa4d8d444" extendedConfigurationObject="0dcf2bfb-c74d-4d15-82d8-52a14cd5401e">
+  <name>КомплекснаяАвтоматизация</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:FunctionalOptionExtension">
+    <location>Checked</location>
+  </extension>
+  <location>Constant.КомплекснаяАвтоматизация</location>
+</mdclass:FunctionalOption>

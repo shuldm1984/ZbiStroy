@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03c24ca8-e0f1-44e3-bf41-5b6ad961b096">
+  <name>ЖБИ_НачальникОтделаЛогистики</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Начальник отдела логистики</value>
+  </synonym>
+  <comment>ЖБИ - Начальник отдела логистики</comment>
+</mdclass:Role>

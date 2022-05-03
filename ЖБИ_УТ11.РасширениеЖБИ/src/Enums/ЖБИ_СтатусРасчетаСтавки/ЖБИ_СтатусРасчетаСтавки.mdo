@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fa72a91-7283-4503-8109-b704b08fc453">
+  <producedTypes>
+    <refType typeId="c4640bfb-ccc8-4d0c-b8f3-0945f6f92ee1" valueTypeId="cafad0d4-cb27-4193-9bb8-c01a58c9ad74"/>
+    <listType typeId="2d04fc94-0833-4c59-b0ec-27eeb90df1fc" valueTypeId="3b7c6af0-b191-45a3-a18b-d3ecd434c32e"/>
+    <managerType typeId="4c1b014e-0696-46c4-abee-e2fb416f21da" valueTypeId="01251b63-78dc-4f72-b9ed-00167eac4aa0"/>
+  </producedTypes>
+  <name>ЖБИ_СтатусРасчетаСтавки</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Статус расчета ставки</value>
+  </synonym>
+  <comment>ЖБИ - Статус расчета ставки</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>ЖБИ - Статус расчета ставки</value>
+  </listPresentation>
+  <enumValues uuid="0f518a17-da67-4fff-bb27-033a284a6eb3">
+    <name>Расчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет</value>
+    </synonym>
+    <comment>Расчет</comment>
+  </enumValues>
+  <enumValues uuid="d93783dc-2d39-4a58-ab85-9fdfcbabe38e">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+    <comment>В работе</comment>
+  </enumValues>
+  <enumValues uuid="75d6509a-6885-4c1c-a79f-0bb26f598e1b">
+    <name>Рассчитан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассчитан</value>
+    </synonym>
+    <comment>Рассчитан</comment>
+  </enumValues>
+  <enumValues uuid="ed71007e-ff2a-44f2-ad4e-d7b399f5e652">
+    <name>РасчетИндивидуальныхЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет индивидуальных цен</value>
+    </synonym>
+    <comment>Расчет индивидуальных цен</comment>
+  </enumValues>
+  <enumValues uuid="0c4ffb85-7b0a-4932-9d54-be837ad89891">
+    <name>ПодтверждениеЛогистами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение логистами</value>
+    </synonym>
+    <comment>Подтверждение логистами</comment>
+  </enumValues>
+  <enumValues uuid="5b441b28-04cc-495d-baa7-def35b603793">
+    <name>Завершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен</value>
+    </synonym>
+    <comment>Завершен</comment>
+  </enumValues>
+  <enumValues uuid="ad5c3613-cc89-4ca1-9c13-ce731663e371">
+    <name>НеСогласован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не согласован</value>
+    </synonym>
+    <comment>Не согласован</comment>
+  </enumValues>
+</mdclass:Enum>

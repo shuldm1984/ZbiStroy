@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ddbf5aa-ed43-4970-9e6d-13a352b4923b">
+  <producedTypes>
+    <selectionType typeId="29f6dc15-b603-4081-a692-ae513ed22b9a" valueTypeId="d4d4c3cc-386e-4aa6-b9aa-9a06c5f5d198"/>
+    <listType typeId="0816b8c0-8624-47d1-b1a8-39f023c84640" valueTypeId="b607e207-34c6-488f-959f-4060c564a201"/>
+    <managerType typeId="07a06b8e-6f0d-44db-8507-8e42deb163ea" valueTypeId="8648d4e7-aa3e-4408-a6b5-755d565590c4"/>
+    <recordSetType typeId="b8a05c30-468f-4525-a0e0-6a96a0a78398" valueTypeId="6c85f935-28b6-4834-85f8-d7e63e002ef1"/>
+    <recordKeyType typeId="319ff3ea-f2a2-4e87-acb4-a3502713b45f" valueTypeId="21237980-0707-4afe-9af8-e4694f34b8a5"/>
+    <recordType typeId="f5e40f56-ab01-4d48-8aaa-18c71f323010" valueTypeId="95651031-85cc-44c8-8d48-5db9ee404dbf"/>
+    <recordManagerType typeId="ed1be802-aea4-47a3-881c-3378a49dd4a1" valueTypeId="4da0b15b-a922-40d4-a16e-a30f0c53b1ed"/>
+  </producedTypes>
+  <name>ЖБИ_ВзаимодействиеСПартнером</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Взаимодействие с партнером</value>
+  </synonym>
+  <comment>ЖБИ - Взаимодействие с партнером</comment>
+  <editType>BothWays</editType>
+  <defaultRecordForm>InformationRegister.ЖБИ_ВзаимодействиеСПартнером.Form.ФормаЗаписи</defaultRecordForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9ddb29c4-5f40-47d4-9dde-09835e4b735c">
+    <name>КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>С кем</value>
+    </synonym>
+    <comment>С кем</comment>
+    <type>
+      <types>CatalogRef.КонтактныеЛицаПартнеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="00f7c1f3-1bc4-4333-b8c0-9a7e6774d9d9">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <comment>Исполнитель</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8c21c97a-2d2b-4d9c-a852-fe7410523f8b">
+    <name>ДатаСледующегоКонтакта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Следующий контакт</value>
+    </synonym>
+    <comment>Следующий контакт</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1d84ea01-07af-46e4-99ad-1c1b21459023">
+    <name>Важность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Важность</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЖБИ_Важность</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="25d154ed-f229-4e82-9388-845e138c66f7">
+    <name>НеИспользуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не используется</value>
+    </synonym>
+    <comment>Не используется</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="cd4703bd-eb1a-4a7b-a336-dd7c9d091dc3">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <comment>Автор</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a9377226-51c6-4aa7-84b1-373acae61d11">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>Комментарий</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="f8992f1a-a59d-45f7-91f8-25c9f7337cc8">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <comment>Партнер</comment>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="cfeeb2c6-e474-4919-be1d-2602c11fc65e">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

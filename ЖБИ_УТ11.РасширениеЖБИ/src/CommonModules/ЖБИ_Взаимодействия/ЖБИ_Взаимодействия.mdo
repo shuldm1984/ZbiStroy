@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c79a05f-8676-4e10-ab93-675d9b0d7c50">
+  <name>ЖБИ_Взаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Взаимодействия</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

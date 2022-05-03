@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="87104fe9-0463-4e41-aadb-635a1ed4a43e">
+  <producedTypes>
+    <containerType typeId="5387e7ad-48ed-4231-bb97-f4999ed5c67d" valueTypeId="dfa81fd4-b1de-4966-a687-14182c618992"/>
+  </producedTypes>
+  <name>ЗначениеДоступа</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

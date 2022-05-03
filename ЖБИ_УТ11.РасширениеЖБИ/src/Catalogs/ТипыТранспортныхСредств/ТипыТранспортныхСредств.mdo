@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="aca88ecd-0bce-4e32-b57c-96535e8d0c35" extendedConfigurationObject="2098ba8d-a466-4e45-a514-0657501a82b4">
+  <producedTypes>
+    <objectType typeId="79483095-e0eb-4a4f-972f-b2f989dd0ab4" valueTypeId="7b1018af-af4a-4771-a55e-f33295a9eb08"/>
+    <refType typeId="971fb318-e447-4933-a456-f64b07ce93bf" valueTypeId="5ebce5ce-03c3-4cbd-8ea7-9ee33a43cc36"/>
+    <selectionType typeId="4ab4dfa6-9cd1-4113-8078-d7b36b46a1a9" valueTypeId="00d891f9-c619-4b75-8736-b4fafd2dbe8d"/>
+    <listType typeId="9b44dd8e-fa82-4148-8a06-7db0f36ded8d" valueTypeId="9db7c99b-258b-4dd5-945d-2c0d37b5d829"/>
+    <managerType typeId="baa21c50-5e29-400e-801a-43b61133c229" valueTypeId="c15873e5-a7ff-4d5e-94fd-e7f4c145c01e"/>
+  </producedTypes>
+  <name>ТипыТранспортныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

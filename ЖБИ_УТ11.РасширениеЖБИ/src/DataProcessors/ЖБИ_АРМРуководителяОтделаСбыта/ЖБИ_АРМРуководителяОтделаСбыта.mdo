@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ecfc3eb-db5d-4209-b003-4e5eba3dd2ff">
+  <producedTypes>
+    <objectType typeId="22c05e5a-93fb-4382-b89b-5a47877e9a66" valueTypeId="198bc449-4adb-4def-b630-85b8c02901d4"/>
+    <managerType typeId="d64bb41f-d669-43be-af23-5c4c9af2fb15" valueTypeId="f03e8c9b-1408-4eec-a7dd-2bb2a34831f9"/>
+  </producedTypes>
+  <name>ЖБИ_АРМРуководителяОтделаСбыта</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - АРМ Руководителя отдела сбыта</value>
+  </synonym>
+  <comment>ЖБИ - АРМ Руководителя отдела сбыта</comment>
+  <defaultForm>DataProcessor.ЖБИ_АРМРуководителяОтделаСбыта.Form.Форма</defaultForm>
+  <forms uuid="cdadac11-2588-4726-8b81-6203d08a33f4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment>Форма</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="6a260100-e2e7-4c4f-ad67-e6239c3f9fc0">
+    <name>КомандаАРМРуководителяОтделаСбыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖБИ - АРМ Руководителя отдела сбыта</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

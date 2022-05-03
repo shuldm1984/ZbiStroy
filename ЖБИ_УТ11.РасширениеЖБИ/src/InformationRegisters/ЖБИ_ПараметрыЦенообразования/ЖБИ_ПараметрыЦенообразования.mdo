@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db461328-98c8-4c82-a748-933b47c43760">
+  <producedTypes>
+    <selectionType typeId="05a385ed-0ae7-49fd-a64d-896bec5a1a27" valueTypeId="914a5eac-89d3-4362-8af6-396eab71e2ee"/>
+    <listType typeId="cb81c1d8-8ea9-4a19-9d20-c5f92a6dc186" valueTypeId="23958970-849b-4cb5-97a8-ef8c81182ba6"/>
+    <managerType typeId="34f8ade6-1fe8-457c-a46d-93ea2a9218fe" valueTypeId="bbc227c2-6820-4f27-be39-c0472bda1408"/>
+    <recordSetType typeId="450ac21b-3d38-43cf-8018-d90ac7b05719" valueTypeId="61e0702f-615d-41a6-9b38-ce51748d57de"/>
+    <recordKeyType typeId="a6babb70-fc74-416d-976b-d0f6a8688b40" valueTypeId="a3f030a0-b551-48a8-8dab-78794c993788"/>
+    <recordType typeId="8e4da5bf-4d50-4e25-837b-fa3b2dcaf577" valueTypeId="d94d7c30-4d60-40e5-8103-61103c196d65"/>
+    <recordManagerType typeId="ed5ba78f-484f-4287-83b9-7d6df9f74110" valueTypeId="ce27f47d-7d6b-4e2b-bad1-f70a16725392"/>
+  </producedTypes>
+  <name>ЖБИ_ПараметрыЦенообразования</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Параметры ценообразования</value>
+  </synonym>
+  <comment>ЖБИ - Параметры ценообразования</comment>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4ca6a024-1957-4765-bc78-241f0691f5ef">
+    <name>ПроцентНаценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>% наценки</value>
+    </synonym>
+    <comment>% наценки</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="56436de4-e8de-4945-b1a3-f62a632e85f6">
+    <name>ПовышающийПроцент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортный %</value>
+    </synonym>
+    <comment>Транспортный %</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="11e6221a-b37b-43b6-9542-678dba05aaa4">
+    <name>ДопустимаяСкидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допус. скидка %</value>
+    </synonym>
+    <comment>Допус. скидка %</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f2e22f8d-833c-4b61-9051-d87156cc1c1d">
+    <name>ПовышеннаяСкидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Повышенная скидки% </value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="efc01ba5-5eee-43a2-b14d-153e1d51eb51">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <comment>Автор</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="36a2e5c9-43f7-4068-a946-b31ee5fe3c95">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>Комментарий</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="599e789a-6f6b-41a2-9e8b-ed27393e1a27">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <comment>Поставщик</comment>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

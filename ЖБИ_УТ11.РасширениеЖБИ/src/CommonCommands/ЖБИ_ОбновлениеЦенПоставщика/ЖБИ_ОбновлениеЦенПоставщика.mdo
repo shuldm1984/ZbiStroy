@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9a6bf7e-e623-4f02-b2fc-0beb0ff61413">
+  <name>ЖБИ_ОбновлениеЦенПоставщика</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Обновление цен поставщика</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="345c3697-7239-4ec5-98d8-65f044db8270">
+  <name>ЖБИ_ОбщийМодульКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Общий модуль клиент сервер</value>
+  </synonym>
+  <comment>ЖБИ - Общий модуль клиент сервер</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

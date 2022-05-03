@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="844c96d7-ef46-4385-8afa-afba67851904">
+  <producedTypes>
+    <objectType typeId="381f7ec7-c8dd-4818-ab39-d56baae4c99c" valueTypeId="4b80536f-d93a-44e6-b173-f7c823208220"/>
+    <refType typeId="5fe25461-72e6-4dfd-a353-712d1e03950b" valueTypeId="afff66a7-cb11-4c18-a57d-be31f918d344"/>
+    <selectionType typeId="5904ae74-3fde-402f-84a6-53da03678863" valueTypeId="53d8b232-44c9-47b9-ade7-39e6109b896c"/>
+    <listType typeId="296a35b3-f392-40ce-83ba-0595fe67d48a" valueTypeId="ddc08f59-4813-4e49-95b2-4d8558453b20"/>
+    <managerType typeId="2a258731-9a1e-4fe0-99f4-ded905a00b11" valueTypeId="3cde0982-d7df-489a-917f-82688a88239d"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="d7601438-83a9-4e0c-91b9-c3eb1702caf8">
+    <name>ЖБИ_ЭлектроннаяПодписьПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖБИ электронная подпись пользователя</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.ЖБИ_ЭлектронныеПодписиПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

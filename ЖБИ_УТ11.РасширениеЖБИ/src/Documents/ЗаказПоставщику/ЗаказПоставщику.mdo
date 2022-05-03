@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d339152b-b226-4222-9247-120ab0756ed4" extendedConfigurationObject="8bd9f000-83c9-4a48-8166-2691b6f02183">
+  <producedTypes>
+    <objectType typeId="18db9748-0693-4486-aa1f-159f8b0cb364" valueTypeId="c8ee52df-27b6-47ff-805c-cb6c1de93bd1"/>
+    <refType typeId="ac12d1d3-001e-4bc2-afa2-11181d8e81e1" valueTypeId="17939d20-e964-443c-8a6a-814505009860"/>
+    <selectionType typeId="849c0a26-669d-406f-ab86-bdcc2c1f09a7" valueTypeId="eebf056e-b79d-4584-a6c7-5b9af901d5be"/>
+    <listType typeId="a8517fa5-f146-4e65-9171-596be18a363c" valueTypeId="00845f3e-4831-4325-b63b-118c7d597d2f"/>
+    <managerType typeId="150ab550-17d1-4909-998a-518f20b64cd1" valueTypeId="d05a3f64-190f-4b7c-ab2c-451d077a9afb"/>
+  </producedTypes>
+  <name>ЗаказПоставщику</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+    <numberType>Checked</numberType>
+    <numberLength>Checked</numberLength>
+    <numberAllowedLength>Checked</numberAllowedLength>
+  </extension>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <attributes uuid="8d3fcd87-aba4-4636-a966-6c436e4eda81" extendedConfigurationObject="e6b39f22-3d0b-4d48-8610-f5b36bbaebc8">
+    <name>ДатаПоступления</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="275ce1d1-dc1e-4bcc-bfcb-87fba6116645" extendedConfigurationObject="10699bb8-b685-49df-b889-e56f9cb3a64d">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="ce2cf566-3d4d-454c-8afd-e1ef7f48fd6d" extendedConfigurationObject="8d121ce6-6d64-46b8-994d-69e60ed91a43">
+    <name>Партнер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Партнеры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="36f65f4f-0046-473a-96c2-11a6f2870ed5" extendedConfigurationObject="595aeccc-8e6d-4e20-a5fd-69789d5828b2">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Контрагенты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="3e9b6e93-3ff3-4b20-90b1-d3760f14ad84" extendedConfigurationObject="06fbccda-70c8-41aa-84e7-f19b55ac0e9c">
+    <name>Договор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ДоговорыКонтрагентов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="2fad3563-e282-4c28-848a-4cb331f509c9" extendedConfigurationObject="79cb27a7-2b14-4398-bf17-b88ef2c2a649">
+    <name>Подразделение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СтруктураПредприятия</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="bb97bb96-dd8e-49bc-8a4a-a58eea226021" extendedConfigurationObject="78c21b30-8148-410f-91b7-6ee155fd8c63">
+    <name>СпособДоставки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СпособыДоставки</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="24ad9129-a5d0-4c32-8737-2a9b7708d06d">
+    <name>ЖБИ_ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖБИ - Документ основание</value>
+    </synonym>
+    <comment>ЖБИ - Документ основание</comment>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>DocumentRef.ЖБИ_ЗаявкиПокупателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="36aae22b-5355-4d82-873c-14c2aeed3630">
+    <name>ЖБИ_НомерСпецификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>№ спецификации</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eb24d7e8-ede8-4b26-96ca-2f9a66467d25">
+    <name>ЖБИ_ДатаСпецификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата спецификации</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="02631b9b-6ced-4ec7-ab97-b03b47b477b5">
+    <name>ЖБИ_УсловиеВДоговоре1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты между сторонами</value>
+    </synonym>
+    <comment>Расчеты между сторонами</comment>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.ЖБИ_УсловияПоОплатеВДоговоре</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2225edff-b5ae-479f-bba0-eaebd96a341c">
+    <name>ЖБИ_УсловиеВДоговоре2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок производства</value>
+    </synonym>
+    <comment>Срок производства</comment>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.ЖБИ_УсловияПоОплатеВДоговоре</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="08d5a197-f102-4da8-bc15-261f5d376036">
+    <name>ЖБИ_УсловиеВДоговоре3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка</value>
+    </synonym>
+    <comment>Доставка</comment>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.ЖБИ_УсловияПоОплатеВДоговоре</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="05cfaf1f-9c90-4045-b21a-de61f90f2ab7">
+    <name>ЖБИ_УсловиеВДоговоре4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условия расчета между сторонами</value>
+    </synonym>
+    <comment>Условия расчета между сторонами</comment>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.ЖБИ_УсловияПоОплатеВДоговоре</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="69e5420e-58ba-4df8-a68d-ba0c1b1f199f">
+    <name>ЖБИ_УсловиеВДоговоре5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнение</value>
+    </synonym>
+    <comment>Дополнение</comment>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.ЖБИ_Дополнение</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8321cfa6-cf05-4833-ab38-ef9f07c21309">
+    <name>ЖБИ_ПодписантПоставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписант поставщик</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.КонтактныеЛицаПартнеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.ЗаказПоставщику.Attribute.Партнер</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="57efa7a2-c1d4-438b-9a45-a66906d0cd39">
+    <name>ЖБИ_ПодписантПокупатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписант покупатель</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.ОтветственныеЛицаОрганизаций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Организация</name>
+      <field>Document.ЗаказПоставщику.Attribute.Организация</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2c13ba05-7f3d-4f6f-a0a9-f63282c2ebe2" extendedConfigurationObject="bc58fa28-4322-4ba4-b531-09deb5308a2d">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="d02877e0-c44b-4cbd-834a-3a138366b990" extendedConfigurationObject="dcee393b-d797-4bfd-be64-3bc288149128">
+    <producedTypes>
+      <objectType typeId="9986d982-df08-421d-a1f5-e0c5adc24a8e" valueTypeId="902732f1-38e0-4064-9f45-2980b77edcde"/>
+      <rowType typeId="a1485a97-48bd-490d-87a7-8cf101f6466e" valueTypeId="d22e26c1-2102-46a8-b0d5-f74be85d5d7b"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="2ca8cb85-6a50-4bc3-b641-c2b6305d06aa" extendedConfigurationObject="fb7178d5-075f-4bff-bd5e-69dd3c98eeb0">
+      <name>НоменклатураПоставщика</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.НоменклатураПоставщиков</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="aa235ae8-58c5-4509-b588-f2ef8cce7f8c" extendedConfigurationObject="8a5b2ff1-9253-46ce-be3f-1ffa9c7e158e">
+      <name>Номенклатура</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Номенклатура</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="416f8fd8-86e3-4e3e-826a-ff8ed3b02516" extendedConfigurationObject="9dcfc241-72d7-4f32-8087-92a6267c3254">
+      <name>КодСтроки</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Number</type>
+          </types>
+          <numberQualifiers>
+            <precision>10</precision>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="20867289-6052-4a55-a15f-d5f84ee77f48">
+      <name>ЖБИ_ПередачаВОтгрузку</name>
+      <synonym>
+        <key>ru</key>
+        <value>ЖБИ - Передача в отгрузку</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>DocumentRef.ЖБИ_ПередачаВОтгрузку</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="57324a4c-30aa-4ccf-be33-dc9e4a8b82a2">
+      <name>ЖБИ_ЦенаПоставщика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена просчета</value>
+      </synonym>
+      <comment>Цена просчета</comment>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Цена подставляется из условий соглашения или указывается вручную</value>
+      </toolTip>
+      <markNegatives>true</markNegatives>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8913112e-5a6b-48f5-9ac8-1622c8d1db13">
+      <name>ЖБИ_Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма просчета</value>
+      </synonym>
+      <comment>Сумма просчета</comment>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сумма для номенклатуры</value>
+      </toolTip>
+      <markNegatives>true</markNegatives>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="cd709af4-e15c-417c-953b-19186af10399" extendedConfigurationObject="01cc7512-0c6d-46a0-aeb6-5134fe2c51c8">
+    <producedTypes>
+      <objectType typeId="606aab98-442b-4106-b264-f137e23935d5" valueTypeId="829938ca-bd08-4468-927e-636e5abad754"/>
+      <rowType typeId="e604a9fc-3267-446f-816f-175dec552714" valueTypeId="5855e754-7591-4624-8f35-fd8fd2ee95b8"/>
+    </producedTypes>
+    <name>ЭтапыГрафикаОплаты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </tabularSections>
+  <templates uuid="f6b66da2-b51b-4084-810c-d50fd77f60ee">
+    <name>ЖБИ_ЗаявкаПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖБИ заявка поставщику</value>
+    </synonym>
+  </templates>
+  <templates uuid="cd00bff5-456f-4b37-a45e-a6b6e7ddb832">
+    <name>ЖБИ_ЗаявкаПоставщикуКратко</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖБИ заявка поставщику кратко</value>
+    </synonym>
+  </templates>
+  <templates uuid="8673b0dd-9c14-41e6-b7e4-83bb32fa01ef">
+    <name>ЖБИ_Спецификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖБИ - Спецификация</value>
+    </synonym>
+    <comment>ЖБИ - Спецификация</comment>
+  </templates>
+</mdclass:Document>

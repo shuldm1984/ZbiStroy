@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b38d1c3d-cb79-4a68-b89f-3b6de206a241">
+  <producedTypes>
+    <refType typeId="6c8bf34e-b607-455b-bd4f-84a5b9f953b7" valueTypeId="494ace9c-748c-4171-bb73-930e90dc10b7"/>
+    <listType typeId="e354f45d-ea2d-4a8d-a3cc-0af2bcca04ed" valueTypeId="d16cef08-e324-4440-ab67-ce6827b43509"/>
+    <managerType typeId="58ed5dbd-b400-4b21-a90c-c32f95d4554a" valueTypeId="1884c5b9-dc28-4cc1-9ca8-2276060ed71a"/>
+  </producedTypes>
+  <name>ЖБИ_ТипыСообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ -Типы сообщения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="15443013-5a3c-4374-9ba3-7cf4f5a2473b">
+    <name>ТемаПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема письма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="481a1dc7-8cde-496c-a2c6-fad4184a173b">
+    <name>ТекстПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст письма</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42f8168e-c760-4338-8450-537c7f22be32">
+  <producedTypes>
+    <objectType typeId="4393fb5b-a857-42f8-a3ca-a930e8b6ee1a" valueTypeId="6e29b3ee-4776-46b8-8d73-260bf6cf9033"/>
+    <refType typeId="673c7c59-d9b9-4c79-b829-f7ad53cc7bed" valueTypeId="eeb69283-539f-41e0-8748-7c8502c62284"/>
+    <selectionType typeId="5d7cab41-172b-4625-94e0-8ebb54e67078" valueTypeId="82209bdb-545c-4fe4-8266-9d28f05bc3ae"/>
+    <listType typeId="8f7d4408-f7fa-45cc-8ee4-3311bda0fb87" valueTypeId="a7b6edcd-1329-44ed-82a0-fd94e97d0722"/>
+    <managerType typeId="c6bc1371-57a7-407d-854d-6bb33631aca6" valueTypeId="94a1c5ae-5f1b-4897-b56c-195b3a15ec33"/>
+  </producedTypes>
+  <name>ЖБИ_НормативныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Нормативные документы</value>
+  </synonym>
+  <comment>ЖБИ - Нормативные документы</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЖБИ_НормативныеДокументы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЖБИ_НормативныеДокументы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>ЖБИ - Нормативные документы</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЖБИ_НормативныеДокументы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЖБИ_НормативныеДокументы.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ЖБИ_НормативныеДокументы.Form.ФормаСписка</defaultChoiceForm>
+  <forms uuid="fe60cdb3-710d-42ec-a55e-7e23c229c31b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="38ca99b5-16a0-40e0-8604-542304e10e18">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b6bf8bcf-d874-4b11-90f2-dfe890259b1d">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

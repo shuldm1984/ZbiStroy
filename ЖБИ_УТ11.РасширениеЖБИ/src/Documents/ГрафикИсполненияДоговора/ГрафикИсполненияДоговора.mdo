@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8e013e40-099b-49e7-a042-04ea34528f5e" extendedConfigurationObject="787cabbd-fa3d-47d4-9dcc-8f8643c42fc2">
+  <producedTypes>
+    <objectType typeId="14b61e5d-3818-4f85-9bb5-446d0d1f3bfb" valueTypeId="d96adcbb-37d2-4ff0-9f35-1f7449885843"/>
+    <refType typeId="08520f0d-a45b-431e-938c-21c5e2a43d1e" valueTypeId="8d17482f-bf23-4556-a9f5-d15b4c0dfdf0"/>
+    <selectionType typeId="5dcb8972-e562-45c5-8044-ace9dd1ad1bc" valueTypeId="07073e74-4193-49d3-9ca9-8f6545c162bd"/>
+    <listType typeId="64ba071e-a44f-445c-a042-c24a4bb52714" valueTypeId="7a040dde-539a-4759-86a9-5eedf088f179"/>
+    <managerType typeId="39a5ef40-7aa5-4829-b5ef-81dcea61769d" valueTypeId="22ab32bb-6653-4315-9fc1-d24d66706deb"/>
+  </producedTypes>
+  <name>ГрафикИсполненияДоговора</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcb2ef93-f16a-4121-bf36-b6b0792f0d24">
+  <producedTypes>
+    <objectType typeId="5480b357-9433-4bc1-a4aa-05a26e83aae0" valueTypeId="00924fd9-45eb-4f25-a723-b9dd907a81a5"/>
+    <managerType typeId="f2c7ee02-ac28-4b50-b68b-a2c21dcb26ee" valueTypeId="75e27f54-e103-4b58-a76d-77a5c944437d"/>
+  </producedTypes>
+  <name>ЖБИ_АРМЛогиста</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - АРМ Логиста</value>
+  </synonym>
+  <comment>ЖБИ - АРМ Логиста</comment>
+  <defaultForm>DataProcessor.ЖБИ_АРМЛогиста.Form.Форма</defaultForm>
+  <forms uuid="172c348f-2c6c-45bb-8e4e-24e7cb42a656">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment>Форма</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5920b413-33ba-4d1c-a3a2-9fdaad20b040">
+    <name>ФормаРедактированияСтавки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования ставки</value>
+    </synonym>
+    <comment>Форма редактирования ставки</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e5d8288d-01c8-48b9-bfdd-3b69783e28c4">
+    <name>ФормаЗаполненияПредварительнойСтавкиПоШаблону</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма заполнения предварительной ставки по шаблону</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="628d6290-13da-43ce-b46f-f779b7a0cf1e">
+    <name>ФормаРасчетРасстояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма расчет расстояния</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d38e80d6-bea2-4a21-ad74-f88b4bfa921a">
+    <name>МакетПредварительныхСтавокПоРегионамИГородам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет предварительных ставок по регионам и городам</value>
+    </synonym>
+  </templates>
+  <templates uuid="e45dfcb0-61f8-4497-a0a1-61e5eaa04c8a">
+    <name>МакетГрадацииЦенПоПоставщикам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет градации цен по поставщикам</value>
+    </synonym>
+  </templates>
+  <commands uuid="c4e3459a-0bf7-42db-ac8c-ebdcd6502633">
+    <name>КомандаАРМЛогиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖБИ - АРМ Логиста</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

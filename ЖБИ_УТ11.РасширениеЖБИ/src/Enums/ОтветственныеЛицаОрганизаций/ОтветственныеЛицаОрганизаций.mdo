@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2d22eb51-bcf3-4028-96ee-1c99b51d8e26" extendedConfigurationObject="97a5f1f4-6332-4100-9848-6c0907797835">
+  <producedTypes>
+    <refType typeId="8019af0b-29ca-444f-9191-ad61e6a9a900" valueTypeId="7ea631f9-bef2-405f-806e-d3294efb8306"/>
+    <listType typeId="e53badb5-0806-4f94-8776-28fc17f6099f" valueTypeId="3e1bfb4a-556d-4860-ab5a-5c853c7d29d3"/>
+    <managerType typeId="65315142-bfab-40f4-99cf-9d3446ba62f2" valueTypeId="70f11d79-7402-4c41-9997-df0f1ae363f4"/>
+  </producedTypes>
+  <name>ОтветственныеЛицаОрганизаций</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="c0042cc5-ec65-4c37-b936-2f12c47090b5" extendedConfigurationObject="6149f789-afe7-422c-a493-7ed022301a1f">
+    <name>Руководитель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e541a593-8d19-4c1f-9f5c-2146fd91bae2" extendedConfigurationObject="b684c73e-a0ee-430e-b257-6a45d3bfa9e8">
+    <name>ГлавныйБухгалтер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

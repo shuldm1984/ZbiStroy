@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18e48bfe-df97-41dd-a678-6c58c4cbbf36">
+  <producedTypes>
+    <refType typeId="77a84adf-3e16-4c8e-9bc9-fead2b6f4a5a" valueTypeId="97dfca68-b8ca-4064-a832-30281631ef14"/>
+    <listType typeId="bb936c55-b702-4f00-a759-5b681b5e2a99" valueTypeId="126e5a8a-40f3-4c67-a4a5-5f6e0ec47bdd"/>
+    <managerType typeId="44804738-3046-426c-a1e6-0779e80102a6" valueTypeId="dd311879-fe66-4615-a418-1e789ec6a913"/>
+  </producedTypes>
+  <name>ЖБИ_ТипыЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Типы заказов</value>
+  </synonym>
+  <comment>ЖБИ - Типы заказов</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>ЖБИ - Типы заказов</value>
+  </listPresentation>
+  <enumValues uuid="52650ae0-9c5e-43bd-b81f-27d2aeccfaff">
+    <name>Стандартный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартный</value>
+    </synonym>
+    <comment>Стандартный</comment>
+  </enumValues>
+  <enumValues uuid="0666ec87-7889-4770-8199-8ea2a6dcf047">
+    <name>ГосЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гос. заказ</value>
+    </synonym>
+    <comment>Гос. заказ</comment>
+  </enumValues>
+</mdclass:Enum>

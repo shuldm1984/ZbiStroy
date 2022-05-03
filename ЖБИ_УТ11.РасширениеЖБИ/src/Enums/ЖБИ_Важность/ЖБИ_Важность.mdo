@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="328055ae-53ee-427c-be22-cf7511d7ef28">
+  <producedTypes>
+    <refType typeId="8c840ff7-b35e-443a-b25a-dfee7011b956" valueTypeId="f2358c6a-489f-4f25-a244-a9ed93f169ea"/>
+    <listType typeId="6fe280a4-60c9-4809-93c1-8210111b34db" valueTypeId="5c985448-06b9-4e55-b3b9-f403c4f176ea"/>
+    <managerType typeId="f3c622d6-925d-46e6-9d7a-c0dbb9927bd8" valueTypeId="2861fd41-34ab-4c96-8b01-d833e009ebd5"/>
+  </producedTypes>
+  <name>ЖБИ_Важность</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Важность</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e05aef86-7902-4268-8048-60e32cbe2497">
+    <name>Высокая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высокая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0b8f8c8-eba9-47a8-81d1-c48d1ac05607">
+    <name>Низкая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Низкая</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

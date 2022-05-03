@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="280d21c1-2592-4523-bee7-78497e215925">
+  <producedTypes>
+    <objectType typeId="148ffdd7-c6b9-448f-bc7c-82e3e8354c46" valueTypeId="f2090d31-78b0-4bc7-84d1-6d49eb18c845"/>
+    <managerType typeId="4fde6014-6a83-428b-b4fe-9a3c66a2df6c" valueTypeId="ec9d97e6-7901-492a-9726-1abc7d19100f"/>
+  </producedTypes>
+  <name>ЖБИ_CRM</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - CRM</value>
+  </synonym>
+  <comment>ЖБИ - CRM</comment>
+  <defaultForm>DataProcessor.ЖБИ_CRM.Form.Форма</defaultForm>
+  <forms uuid="b1169711-9981-40a5-b982-cb8444a145ac">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment>Форма</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="4126029d-9ccc-476b-adaf-d5fe63b710d4">
+    <name>КомандаCRM</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖБИ - CRM</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

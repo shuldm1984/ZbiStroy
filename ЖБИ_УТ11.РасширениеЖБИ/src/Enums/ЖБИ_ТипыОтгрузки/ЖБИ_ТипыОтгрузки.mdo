@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="457f11c0-bab6-41f6-9d21-0fde2e0c5e70">
+  <producedTypes>
+    <refType typeId="0c2dc707-550c-4c32-85db-e0c7ec95c2b7" valueTypeId="c0d8d25e-6b43-4446-8ba8-9793ed09adbc"/>
+    <listType typeId="fe5fc477-8568-4fee-a76e-b8b8e2a5224f" valueTypeId="edcfb74f-12a4-4fef-ae60-7db174047e3b"/>
+    <managerType typeId="24525036-999d-4d6f-b01c-c58545eee4ad" valueTypeId="58041621-c1b1-4ecc-8d57-3a51646f7eed"/>
+  </producedTypes>
+  <name>ЖБИ_ТипыОтгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Типы отгрузки</value>
+  </synonym>
+  <comment>ЖБИ - Типы отгрузки</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>ЖБИ - Тип оплаты</value>
+  </listPresentation>
+  <enumValues uuid="2f5de3cb-b748-463f-8fb8-58fed7a87191">
+    <name>Авто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авто</value>
+    </synonym>
+    <comment>Авто</comment>
+  </enumValues>
+  <enumValues uuid="b11996f1-7418-4920-a7a7-19eda524bb96">
+    <name>ЖД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖД</value>
+    </synonym>
+    <comment>ЖД</comment>
+  </enumValues>
+</mdclass:Enum>

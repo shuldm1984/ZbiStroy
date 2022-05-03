@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ace136f-789f-49af-a816-0a03202c4b9b">
+  <producedTypes>
+    <objectType typeId="8e1c5291-4dcf-42ab-bae1-baec13e84227" valueTypeId="3f1e002b-9bd6-4bba-a896-d6dc598b1b5f"/>
+    <managerType typeId="a6da2462-4f90-4149-a1c3-a5a36833deb6" valueTypeId="f5313108-bdc6-417d-8bd8-86f5eec4c889"/>
+  </producedTypes>
+  <name>ЖБИ_УведомлениеПользователейПоПочте</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Уведомление пользователей по почте (взаимодействие с партнером)</value>
+  </synonym>
+  <comment>ЖБИ - Уведомление пользователей по почте (взаимодействие с партнером)</comment>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ЖБИ_УведомлениеПользователейПоПочте.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>ЖБИ - Уведомление пользователей по почте (взаимодействие с партнером)</value>
+  </explanation>
+  <templates uuid="69d923d7-0999-4009-a8af-a75effb590df">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

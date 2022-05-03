@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b649cb7-9a98-4936-ac06-74d8b6d08e6b">
+  <producedTypes>
+    <selectionType typeId="a27de51f-6e45-4a8f-a8d8-d341cd78a43b" valueTypeId="e77aca98-eba7-40fa-b0ef-595b7836bd98"/>
+    <listType typeId="62d31899-42ae-4b43-8af9-b742a4283280" valueTypeId="8171fe5f-a8b7-4f27-946d-b071c78b6a08"/>
+    <managerType typeId="fe4afbf3-ddb3-4b19-9875-3f76fdad7376" valueTypeId="3099e01c-07bf-4891-85c9-8591b5faf172"/>
+    <recordSetType typeId="57a9699d-b28a-41d6-97dd-1ebeea07dde2" valueTypeId="89cb61c3-10f4-4691-8fff-d05f541dd62c"/>
+    <recordKeyType typeId="13fb569e-753c-4bad-aad8-35904dd064eb" valueTypeId="16e6cf62-8519-4b84-9003-686b749ab728"/>
+    <recordType typeId="63b7a08d-cb8c-4c18-a95d-d32a27b80c95" valueTypeId="01efc4aa-65ad-48ad-b588-30e01e875b6a"/>
+    <recordManagerType typeId="791bf2cf-e709-48b9-a55f-a232b0e657f8" valueTypeId="10bea543-de3e-4e6f-b35b-4e95e7890a02"/>
+  </producedTypes>
+  <name>ЖБИ_НумераторПродажПоДоговорам</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Нумератор продаж по договорам</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ЖБИ_НумераторПродажПоДоговорам.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a2521d72-0137-4d37-95fc-7640ed90aafc">
+    <name>НомерПоПорядку</name>
+    <synonym>
+      <key>ru</key>
+      <value>№ п.п.</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="fbbb4373-aa22-4af7-8339-e393023dc7eb">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <comment>Автор</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="30743b26-8287-4fdd-9faf-4fa890b7c169">
+    <name>ДоговорПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор продажи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="94d194fc-a8c5-4acb-b793-20ff37730469">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

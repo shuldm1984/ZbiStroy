@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="31ac2606-905e-43ef-9dd3-c4d067f46b4d">
+  <producedTypes>
+    <refType typeId="026ddca8-cdff-4055-aa65-79e9973dbb8f" valueTypeId="5e33060a-ca70-4a4a-8903-4ba0aeab497a"/>
+    <listType typeId="77621c63-a591-474f-8675-408d7f316899" valueTypeId="ba7e42b0-f33c-4117-980c-c7fd1bb9253c"/>
+    <managerType typeId="416fbed2-0955-4c76-8496-c872ff9e3574" valueTypeId="503b3609-5ff7-4d4a-9083-604b7697a319"/>
+  </producedTypes>
+  <name>ПолФизическогоЛица</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

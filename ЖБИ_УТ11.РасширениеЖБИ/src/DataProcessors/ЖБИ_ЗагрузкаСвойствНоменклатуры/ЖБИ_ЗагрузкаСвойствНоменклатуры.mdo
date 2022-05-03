@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5dfe77e3-b1e7-4fa7-9658-140f65bbb515">
+  <producedTypes>
+    <objectType typeId="8e55a4c4-a188-4a5f-9901-f746f20aa65d" valueTypeId="64632fd7-5336-4c9c-a756-fccd5bf1d14b"/>
+    <managerType typeId="2df2b50a-a421-46e0-b8ed-0e0b86142767" valueTypeId="8a43a5b4-2046-4071-b9ce-fc2bd0288e5e"/>
+  </producedTypes>
+  <name>ЖБИ_ЗагрузкаСвойствНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Загрузка свойств номенклатуры</value>
+  </synonym>
+  <defaultForm>DataProcessor.ЖБИ_ЗагрузкаСвойствНоменклатуры.Form.ФормаХарактеристики</defaultForm>
+  <forms uuid="674b1807-6aba-4d6e-9f75-84feef9901a5">
+    <name>ФормаХарактеристики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма характеристики</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="de36abb6-56b3-4ad2-ac54-fd77f3800a3f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7b33d83b-cbe9-4d6d-b6ba-008dfe61f4f2">
+    <name>СвойстваНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства номенклатуры</value>
+    </synonym>
+  </templates>
+  <templates uuid="3a1e5856-50ea-47f5-8d27-9bc3d01d11d8">
+    <name>ВидыНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды номенклатуры</value>
+    </synonym>
+  </templates>
+  <commands uuid="bda7147d-cc02-4740-bcdf-01108ebbc368">
+    <name>КомандаЗагрузкаСвойствНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖБИ - Загрузка свойств номенклатуры</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

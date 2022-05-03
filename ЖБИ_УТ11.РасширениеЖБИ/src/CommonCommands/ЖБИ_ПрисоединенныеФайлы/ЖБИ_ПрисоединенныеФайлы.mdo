@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4afd3da4-53c9-4a80-889d-1299eebd56e6">
+  <name>ЖБИ_ПрисоединенныеФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файлы</value>
+  </synonym>
+  <group>FormNavigationPanelGoTo</group>
+  <commandParameterType>
+    <types>DocumentRef.ЖБИ_ФактическиеОтгрузки</types>
+  </commandParameterType>
+  <representation>PictureAndText</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

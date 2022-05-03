@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c9e63cef-f21a-47c4-96fd-c21eda77c24c" extendedConfigurationObject="8965f225-afbc-4ff7-ac96-b5f31f39e808">
+  <producedTypes>
+    <objectType typeId="93b355c7-3d9d-461b-99de-bc98ef5e09bc" valueTypeId="9ccaeebf-2300-48d5-a703-8428ccc3a5db"/>
+    <refType typeId="495a6e63-a473-405b-88ed-910646150609" valueTypeId="62c59045-a27e-48e9-89a5-0339e63892f3"/>
+    <selectionType typeId="6292439d-15df-440d-962d-01ac76e332d9" valueTypeId="bbe35ed8-59ef-44f7-993d-47db806a8349"/>
+    <listType typeId="c9f00774-f276-4a20-8411-78cc6202aa2a" valueTypeId="f05de94b-35b2-44f4-91a0-ff2e2b201133"/>
+    <managerType typeId="e576ef82-2b79-4c7d-b648-d4da10e38256" valueTypeId="7152dbdf-dc48-480a-9b94-273404f944bf"/>
+  </producedTypes>
+  <name>СерииНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

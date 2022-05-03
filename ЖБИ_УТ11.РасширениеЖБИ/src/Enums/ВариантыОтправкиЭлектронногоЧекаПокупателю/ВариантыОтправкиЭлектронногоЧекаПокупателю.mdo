@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2222efea-4968-435f-a5e1-94746f400a83">
+  <producedTypes>
+    <refType typeId="38ce6856-b3ec-4b7c-819f-cacfd30986ec" valueTypeId="aab4352b-aa59-46e5-9e02-06cda1567785"/>
+    <listType typeId="98f33bf3-6baf-4b52-95a2-f49aa71f1792" valueTypeId="0bef59bc-d8a0-47a5-85e4-c81bbc90f34f"/>
+    <managerType typeId="fa841a2e-3b0f-4912-ad6b-e7f8a369a2f7" valueTypeId="d1905684-c0c3-44ea-9a81-6377d2f5011c"/>
+  </producedTypes>
+  <name>ВариантыОтправкиЭлектронногоЧекаПокупателю</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7175e31b-81ce-40df-8b78-b172cc490bb3">
+  <producedTypes>
+    <refType typeId="b3ba23b5-38c0-4746-9d99-42b6e8f06c6e" valueTypeId="df5b6c7b-b0e2-4931-b46b-7c68d6e11a2c"/>
+    <listType typeId="b09f8c55-38f2-4130-b08b-57dae42d44cd" valueTypeId="1d0c6080-ceaf-454f-8c2f-fc7e3da66936"/>
+    <managerType typeId="7004d2a9-4a81-46fe-8102-57e553a40ff2" valueTypeId="5870b186-1606-43ed-9e0c-091efea4b0f4"/>
+  </producedTypes>
+  <name>СпособыФормированияСегментов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="eb90d113-4e5d-4581-9b78-5ec614bad476">
+    <name>ФормироватьВручную</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="177176f8-2ad6-4d03-9556-503ded70e66b">
+  <producedTypes>
+    <objectType typeId="e8ade410-bfc0-495f-b051-bd045c3f9114" valueTypeId="27f50096-0230-48d5-85a6-26a2c65aa3b4"/>
+    <managerType typeId="2aebb514-8870-4736-8e7b-da5524087e4d" valueTypeId="aef47eee-72fc-4a49-8939-1ae9ed5d8321"/>
+  </producedTypes>
+  <name>ЖБИ_АРМПланОтгрузкиМенеджер</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - АРМ План отгрузки менеджер</value>
+  </synonym>
+  <comment>ЖБИ - АРМ План отгрузки менеджер</comment>
+  <defaultForm>DataProcessor.ЖБИ_АРМПланОтгрузкиМенеджер.Form.Форма</defaultForm>
+  <forms uuid="965c7ec0-1adf-4e1f-a6c7-0a46c29cf766">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment>Форма</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="72cd5a98-de12-44c2-a5d5-cff446d5dbcc">
+    <name>КомандаАРМПланОтгрузкиМенеджер</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖБИ - АРМ План отгрузки менеджер</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

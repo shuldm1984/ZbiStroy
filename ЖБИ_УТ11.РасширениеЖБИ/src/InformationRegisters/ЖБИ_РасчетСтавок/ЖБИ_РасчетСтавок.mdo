@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bf5f063-1827-456f-8054-000ba80d7729">
+  <producedTypes>
+    <selectionType typeId="d2a16fe6-253a-402b-af66-e6fd9b58c845" valueTypeId="3cf63063-763e-4718-b2ea-52f4e324a840"/>
+    <listType typeId="d23ff260-b787-4612-8b1f-1d7c8a91d503" valueTypeId="ee613880-2d58-4adc-bf8d-69d04db9e7fc"/>
+    <managerType typeId="3ff1640a-7a73-40a9-9a4f-7eee2bf85ec9" valueTypeId="355d45e4-32ff-46e7-bec9-b2afdab205f9"/>
+    <recordSetType typeId="7bb672ab-a52a-431b-a302-aa749d79e748" valueTypeId="a9ab733b-0e14-44ca-a1da-4260f71abaab"/>
+    <recordKeyType typeId="c6e103b3-6c41-48cc-bf3f-5e77e6abcc6b" valueTypeId="b08eed02-da6c-416c-97b0-01a188301475"/>
+    <recordType typeId="5cd60ef7-44f1-45a0-906a-1132fddd77e0" valueTypeId="a9a6fe21-65a6-49f5-bdde-ca9e4f804277"/>
+    <recordManagerType typeId="a9df8574-3da7-45c0-a6a3-d1e3910dc38f" valueTypeId="bfdd41d3-75f7-420b-8760-4a032b7531e0"/>
+  </producedTypes>
+  <name>ЖБИ_РасчетСтавок</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Расчет ставок</value>
+  </synonym>
+  <comment>ЖБИ - Расчет ставок</comment>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ЖБИ_РасчетСтавок.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a8331f29-d539-41f3-872c-399300cb88f9">
+    <name>ВидСтавки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид ставки</value>
+    </synonym>
+    <comment>Вид ставки</comment>
+    <type>
+      <types>EnumRef.ЖБИ_ВидыСтавок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f094df18-e7dd-480b-bf05-46c9eb8052a1">
+    <name>СрокДействияС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует с</value>
+    </synonym>
+    <comment>Действует с</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8aec1608-8029-46d0-8a92-e11e641d2ac3">
+    <name>СрокДействияПо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует по</value>
+    </synonym>
+    <comment>Действует по</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2057d023-2cbb-4bb2-8d82-12aa42c8b940">
+    <name>Негабаритный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не габарит</value>
+    </synonym>
+    <comment>Не габарит</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="997a6685-007f-43ce-abd4-3f37a7f8cf82">
+    <name>Расстояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расстояние</value>
+    </synonym>
+    <comment>Расстояние</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8e1f6787-c1f6-443f-8f5e-f620a4962448">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма с НДС</value>
+    </synonym>
+    <comment>Сумма с НДС</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сумма для номенклатуры</value>
+    </toolTip>
+    <markNegatives>true</markNegatives>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="e3159d3d-bf8a-46c4-b0c5-8ab19ef039ed">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <comment>Автор</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="264e9086-c869-46f1-bcbf-e77e8131a722">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>Комментарий</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="fce74b85-aab4-460b-a824-638cf55dd3a2">
+    <name>Маршрут</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маршрут</value>
+    </synonym>
+    <comment>Маршрут</comment>
+    <type>
+      <types>CatalogRef.ЖБИ_Маршрут</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="527b2f43-7520-44b5-a392-bde87e975a83">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

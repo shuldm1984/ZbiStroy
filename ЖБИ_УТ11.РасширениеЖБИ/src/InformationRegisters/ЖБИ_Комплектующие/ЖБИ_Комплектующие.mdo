@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c24f8101-6389-4cfc-acbf-a1c596a85672">
+  <producedTypes>
+    <selectionType typeId="f7b7683c-c1da-4ac6-86bc-fb1ede3f3398" valueTypeId="18d93194-b3f4-4650-bbf2-8d2951ccee46"/>
+    <listType typeId="65af3e1d-6254-4950-a504-e528f13b9b07" valueTypeId="5612124f-dfb0-4689-8541-6b4cc397748b"/>
+    <managerType typeId="9043f853-edcd-4cb3-96ca-5fb91a3ff791" valueTypeId="be508e95-992b-4149-bf87-9906ac486106"/>
+    <recordSetType typeId="d35309c3-f1b5-4fc6-90e5-664c10c6055d" valueTypeId="eebba254-a93d-4ff6-b1ab-751ff47cd0ec"/>
+    <recordKeyType typeId="38d3bacd-943c-44d8-9080-3421ff570d17" valueTypeId="47c2de1e-c623-4cfe-a6fc-acf95f5f04cd"/>
+    <recordType typeId="802feaaf-3d3f-411f-98e7-4ca236fec5dc" valueTypeId="a2afcb11-bc05-4a5c-9382-5e53a3a065b2"/>
+    <recordManagerType typeId="257736db-582f-45d2-a1c8-738015fd3920" valueTypeId="7c6d0653-ae16-4e54-be7e-7123abb25bf2"/>
+  </producedTypes>
+  <name>ЖБИ_Комплектующие</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Комплектующие</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЖБИ_Комплектующие.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="043ed5a4-0cd3-4f69-96a8-1b7166a9065f">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="4513ed38-b865-4904-99f7-37a6abd1e997">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <comment>Автор</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="828312ec-120c-4122-97ca-447f4111055e">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d43ed6aa-4446-49b8-864b-3de7a302f223">
+    <name>Комплект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <forms uuid="4924d7cf-ee08-4c69-8b4f-bb9f49e5a03b">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

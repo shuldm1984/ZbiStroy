@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0681d6a1-7bb1-4668-b9c9-458e13c81b7d">
+  <producedTypes>
+    <objectType typeId="7c072179-d68d-4ee9-adbd-f82daa8c0f1c" valueTypeId="5eef8563-81e9-4087-828d-621da6e540aa"/>
+    <refType typeId="1db68a69-4958-42d2-92c2-4400e96b039f" valueTypeId="19f310cf-08ca-46cc-9403-76e97e959fed"/>
+    <selectionType typeId="225f9f52-8202-403e-bbd8-26065e5c778d" valueTypeId="723783db-0147-453a-a11b-be8a39781aa1"/>
+    <listType typeId="60a7fffb-5ca3-4b0a-873a-1ef3f2aec3b9" valueTypeId="63ac412c-a963-4478-ac10-d242c9a05e01"/>
+    <managerType typeId="d3f5babe-433e-4da0-bfb6-f320fb5237a4" valueTypeId="8866e248-f315-450e-8fc5-0a75a878c77c"/>
+  </producedTypes>
+  <name>ГруппыАналитическогоУчетаНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

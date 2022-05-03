@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1602cc62-2c10-46eb-9851-687bcd127027">
+  <producedTypes>
+    <objectType typeId="7e4eb170-9971-47ee-87a8-d1378ee6c0dc" valueTypeId="bbcb0104-ca69-4b31-8397-09490d817238"/>
+    <managerType typeId="41669775-5f28-4504-bfa8-52ee32d0013a" valueTypeId="63236712-2748-47aa-9304-2b4c94403673"/>
+  </producedTypes>
+  <name>ЖБИ_УведомленияДатыКонтроляЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Уведомления даты контроля цен</value>
+  </synonym>
+  <comment>ЖБИ - Уведомления даты контроля цен</comment>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ЖБИ_УведомленияДатыКонтроляЦен.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <explanation>
+    <key>ru</key>
+    <value>ЖБИ - Уведомления даты контроля цен</value>
+  </explanation>
+  <templates uuid="49dbae78-5a1d-4ee0-af0c-8dccc77634ad">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

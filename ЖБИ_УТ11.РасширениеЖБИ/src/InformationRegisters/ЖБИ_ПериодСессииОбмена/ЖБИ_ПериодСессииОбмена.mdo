@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ab3242c-23b0-4600-9346-0677815ee355">
+  <producedTypes>
+    <selectionType typeId="dd8f4a0e-7a5d-409a-9592-810ebd809b9d" valueTypeId="8c472a0c-71ef-47d8-b907-b20fdd219960"/>
+    <listType typeId="b51ad02b-b1bc-4537-9a41-b6b0898c36d2" valueTypeId="9a44f150-c154-478a-922e-9b7e305024f9"/>
+    <managerType typeId="e81f42a0-3dd7-49eb-a1c2-a3c7ac3e8f0e" valueTypeId="65eca58d-5f98-4aaa-8d7e-50ed3e8ba791"/>
+    <recordSetType typeId="abce19c2-2b39-4836-9c4c-c4e9aeda5556" valueTypeId="a7092182-18b6-4fd9-9b52-9be64530fac4"/>
+    <recordKeyType typeId="27935142-8c9d-4310-8cbf-f009c55f94e3" valueTypeId="57dd2b4c-a0d2-46b9-be63-29579c42ee74"/>
+    <recordType typeId="76fcbcb5-4650-4825-8eb7-6459724e5f3a" valueTypeId="c7fee3de-ff6e-4fa5-8920-dde79cdd1a7d"/>
+    <recordManagerType typeId="521f890a-53fd-4395-a9a7-3d72c5a9d2f9" valueTypeId="f2996578-2d51-42c1-a472-43091bfbcb8c"/>
+  </producedTypes>
+  <name>ЖБИ_ПериодСессииОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Период сессии</value>
+  </synonym>
+  <comment>ЖБИ - Период сессии</comment>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="3f3d22f3-e306-4043-93db-b7ef2a2492f9">
+    <name>ГуидСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гуид сессии</value>
+    </synonym>
+    <comment>Гуид сессии</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

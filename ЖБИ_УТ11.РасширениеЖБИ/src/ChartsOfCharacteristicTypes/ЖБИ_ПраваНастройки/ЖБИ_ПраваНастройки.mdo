@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="310aeda1-17c1-447f-9ba5-af318b7ed826">
+  <producedTypes>
+    <objectType typeId="10f6c5a8-f72a-4a1e-b509-e16222cdd78e" valueTypeId="4ffd83d2-095d-4251-97dd-67f915c214cf"/>
+    <refType typeId="61564c2b-78ab-403d-a8c9-98b1445d37d2" valueTypeId="6cdf5acf-a8ab-4519-a277-4476aa2da14e"/>
+    <selectionType typeId="171258da-9584-40c9-b044-e5e2270a79b1" valueTypeId="8b46c73d-6525-4f09-91c3-37c0b2713767"/>
+    <listType typeId="a38a48ff-744e-4cc0-bdf3-b40120a243f9" valueTypeId="b7243fc5-1fc1-4859-b409-e531f9133a50"/>
+    <managerType typeId="0761d689-f0b5-4cf6-b60c-0640d5a4822d" valueTypeId="77f01cfa-2d6c-408a-95f2-30270f75facc"/>
+    <containerType typeId="62710084-9a4c-4e64-a8fc-7f264363b0fe" valueTypeId="ef585dcc-411e-4700-9a2d-85829ec19705"/>
+  </producedTypes>
+  <name>ЖБИ_ПраваНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Права и настройки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ЖБИ_ПраваНастройки.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ЖБИ_ПраваНастройки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.ОтветственныеЛицаОрганизаций</types>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <hierarchical>true</hierarchical>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="f1e56318-fdcd-403c-a05a-5da42b2501d0">
+    <name>ПользовательскоеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользовательское наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="87bbfd1a-905c-4e2a-afd7-d8283df5516e">
+    <name>Назначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЖБИ_НазначениеПравИНастроек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bfa4a2ba-ca0b-4cf9-abd1-af63e451e989">
+    <name>ЗначениеПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение по умолчанию</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ЖБИ_ПраваНастройки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="251d53c9-0afb-4a8e-b3a9-f8883862e21e">
+    <name>СлужебныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебный код</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ChartOfCharacteristicTypes>

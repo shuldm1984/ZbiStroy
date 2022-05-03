@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70919514-45b4-4ffa-abdf-9ccf8bafb44c">
+  <name>ЖБИ_Отладка</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Оладка</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

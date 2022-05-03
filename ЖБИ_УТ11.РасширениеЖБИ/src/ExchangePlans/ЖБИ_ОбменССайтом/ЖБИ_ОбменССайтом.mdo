@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96f1f3d0-2982-4758-a613-41edf7141faf" thisNode="d97ccf35-1fb2-43ce-a34d-c44d2babfb7c">
+  <producedTypes>
+    <objectType typeId="a4c95bf2-085a-4b36-bf39-343e5d0b20ce" valueTypeId="894489e5-710b-4bf8-8253-5ad33e8eab19"/>
+    <refType typeId="c104d2cf-6c34-48e5-a834-7b29dabf0991" valueTypeId="d2bb5c2c-1917-4c49-8283-e887d68a2722"/>
+    <selectionType typeId="fa07cfa6-f865-4db5-aed3-5587766e0ed7" valueTypeId="0c7b0d50-d18f-472b-8f76-00b1abab6a21"/>
+    <listType typeId="b32312a9-8dfd-4045-b3ef-5b97629f1d4f" valueTypeId="88bf79ac-94db-4f29-9bac-c111a06a8d79"/>
+    <managerType typeId="08cc6384-c72c-4244-bca9-fc82eddf6635" valueTypeId="e6e44c23-c958-4660-a107-a308a9d271e7"/>
+  </producedTypes>
+  <name>ЖБИ_ОбменССайтом</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - План обмена с сайтом</value>
+  </synonym>
+  <inputByString>ExchangePlan.ЖБИ_ОбменССайтом.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ЖБИ_ОбменССайтом.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Catalog.Номенклатура</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ed0edc69-d634-4354-900d-1ce233bcd8c6">
+    <name>СлужебнаяКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебная код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>55</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b2b85372-fc77-4e35-bf98-f59eac96d140">
+    <name>НастройкаДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка доставки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЖБИ_НастройкиДоставкиСообщений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ExchangePlan>

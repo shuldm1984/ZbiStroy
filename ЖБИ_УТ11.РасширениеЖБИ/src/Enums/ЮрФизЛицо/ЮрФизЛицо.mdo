@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="718dc692-c4ef-45b2-9262-c0f2ba8bf53e" extendedConfigurationObject="e9878089-011c-4608-902f-a358fcc73d96">
+  <producedTypes>
+    <refType typeId="29c1a003-e9f0-449f-b45a-9e1295cce09b" valueTypeId="8a98720c-2936-4494-9886-837c4d11acb2"/>
+    <listType typeId="c2ef4782-a1fd-4e69-8b11-fc635a5ce7fb" valueTypeId="c3b58526-ce83-49fe-9e1c-99d99bd7b250"/>
+    <managerType typeId="bc5f9a33-59db-4eb4-8728-be54bb573ed7" valueTypeId="f3fc66c7-3802-4908-87f7-ef964227337d"/>
+  </producedTypes>
+  <name>ЮрФизЛицо</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

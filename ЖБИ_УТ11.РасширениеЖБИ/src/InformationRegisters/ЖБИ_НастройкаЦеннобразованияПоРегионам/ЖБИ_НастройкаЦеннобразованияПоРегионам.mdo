@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5665d248-4e8f-46b5-8af1-e4811cf85e52">
+  <producedTypes>
+    <selectionType typeId="605b38a2-5fd7-4e2d-a9b8-d4402bb3451f" valueTypeId="f700028f-f521-4aaf-8bbd-e65765d55d41"/>
+    <listType typeId="a5f56a8c-c6a8-4e3f-b34c-dc129b1dca13" valueTypeId="20c32c9c-70ad-4871-9bc9-c185713e7db3"/>
+    <managerType typeId="b41a9b6c-39a4-491d-b5d7-333989b96278" valueTypeId="25f07c7b-ef1c-4590-85e3-fcd89d2dd657"/>
+    <recordSetType typeId="c4446c26-bcb2-4a10-8d8b-0558f5e2f0cc" valueTypeId="65e0992a-7442-4780-8677-17445851f1b2"/>
+    <recordKeyType typeId="7ce3823a-41a7-4151-b61b-9c164b14cd01" valueTypeId="b2f40ef3-7714-45ba-8c29-21720f41d7d7"/>
+    <recordType typeId="9308b1a1-50c5-40b3-b776-d14fc566c44a" valueTypeId="fb68182f-32a6-4fb7-ac73-daa36c98b526"/>
+    <recordManagerType typeId="395db2ee-1f10-4089-9b42-180bbb419941" valueTypeId="a8d827d2-27a2-4801-a254-10cd64a225bc"/>
+  </producedTypes>
+  <name>ЖБИ_НастройкаЦеннобразованияПоРегионам</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Настройка ценнобразования по регионам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="83945308-d437-4298-8591-e3d821d727b3">
+    <name>Наценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наценка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="0e83c294-70e4-4fd7-a91a-7986b45a96cf">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <comment>Автор</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="68c05f0b-bb7e-479a-99b6-d96f64e57f7c">
+    <name>Регион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регион</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЖБИ_Регионы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

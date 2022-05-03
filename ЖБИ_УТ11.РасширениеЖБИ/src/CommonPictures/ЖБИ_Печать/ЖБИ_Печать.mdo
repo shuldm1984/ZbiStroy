@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c061777f-d1e2-40fa-989c-1f6bc1619896">
+  <name>ЖБИ_Печать</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Печать</value>
+  </synonym>
+</mdclass:CommonPicture>

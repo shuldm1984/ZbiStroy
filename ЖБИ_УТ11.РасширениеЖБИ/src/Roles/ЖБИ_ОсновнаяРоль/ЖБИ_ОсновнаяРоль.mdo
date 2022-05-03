@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d378854-3a50-410b-8045-bbf1054c6a07">
+  <name>ЖБИ_ОсновнаяРоль</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Основная роль</value>
+  </synonym>
+  <comment>ЖБИ - Основная роль</comment>
+</mdclass:Role>

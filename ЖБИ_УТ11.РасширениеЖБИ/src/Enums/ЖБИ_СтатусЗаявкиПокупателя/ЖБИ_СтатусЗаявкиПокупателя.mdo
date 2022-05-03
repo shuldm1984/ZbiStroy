@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ed7648d-53f7-4849-a6b1-935f5ede73f6">
+  <producedTypes>
+    <refType typeId="69db7038-b33b-4d43-917b-774dcdddf594" valueTypeId="2e89da76-26fb-4a81-ac24-84b15ea05ea2"/>
+    <listType typeId="74472cb8-97d4-45a4-a705-3646c4815c7e" valueTypeId="59cfa5ea-8561-41fa-8e36-3d630dcec5f3"/>
+    <managerType typeId="cc395f06-5d99-4901-b074-b00b16f668eb" valueTypeId="e00a1e6f-f37c-473f-ad96-41dcb81d4f0a"/>
+  </producedTypes>
+  <name>ЖБИ_СтатусЗаявкиПокупателя</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Статус заявки покупателя</value>
+  </synonym>
+  <comment>ЖБИ - Статус заявки покупателя</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>ЖБИ - Статус заявки покупателя</value>
+  </listPresentation>
+  <enumValues uuid="83186808-00a4-4915-b8d4-637ad0f1e6ac">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+    <comment>Новый</comment>
+  </enumValues>
+  <enumValues uuid="a59a7ce3-a3ff-47df-87ad-39f055ed3968">
+    <name>ОтправленНаРасчетПлановыхСтавок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен на расчет плановых ставок</value>
+    </synonym>
+    <comment>Отправлен на расчет плановых ставок</comment>
+  </enumValues>
+  <enumValues uuid="ae7a5f4f-c1ac-4cae-92b7-a1a5c34cf086">
+    <name>РасчетПлановыхСтавок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет плановых ставок</value>
+    </synonym>
+    <comment>Расчет плановых ставок</comment>
+  </enumValues>
+  <enumValues uuid="66bc133f-ceea-42d3-9992-534e6c6d2a30">
+    <name>ОкончательныйРасчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончательный расчет</value>
+    </synonym>
+    <comment>Окончательный расчет</comment>
+  </enumValues>
+  <enumValues uuid="03494fa5-4afc-41f0-8d40-93179a8608d0">
+    <name>ПодтверждениеЛогистами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение логистами</value>
+    </synonym>
+    <comment>Подтверждение логистами</comment>
+  </enumValues>
+  <enumValues uuid="3f45e2cf-7c23-40e1-a59a-09945ebba02c">
+    <name>ПодготовкаСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подготовка счета</value>
+    </synonym>
+    <comment>Подготовка счета</comment>
+  </enumValues>
+  <enumValues uuid="4108ff54-7703-4669-890d-d072d7e7145e">
+    <name>ВыпискаДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выписка документов</value>
+    </synonym>
+    <comment>Выписка документов</comment>
+  </enumValues>
+  <enumValues uuid="bc1b4a97-1f52-47e1-a78a-351c76a6a781">
+    <name>ВОтгрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>В отгрузке</value>
+    </synonym>
+    <comment>В отгрузке</comment>
+  </enumValues>
+  <enumValues uuid="cd35d6ad-cc15-4087-9b15-3e076e5dec6f">
+    <name>ИстекСрокДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Истек срок действия</value>
+    </synonym>
+    <comment>Истек срок действия</comment>
+  </enumValues>
+  <enumValues uuid="6fd5a9e9-da08-42ff-9bbf-3602b9314046">
+    <name>Отгружен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгружено</value>
+    </synonym>
+    <comment>Отгружено</comment>
+  </enumValues>
+  <enumValues uuid="809d71fd-e509-4ff3-a7d1-e197a77e8600">
+    <name>Завершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен</value>
+    </synonym>
+    <comment>Завершен</comment>
+  </enumValues>
+  <enumValues uuid="fdd8c027-aad9-40a9-956b-125d36ab8b25">
+    <name>ВАрхиве</name>
+    <synonym>
+      <key>ru</key>
+      <value>В архиве</value>
+    </synonym>
+    <comment>В архиве</comment>
+  </enumValues>
+  <enumValues uuid="9b023509-363f-4a74-af0d-6f0f2eab315e">
+    <name>Удален</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удален</value>
+    </synonym>
+    <comment>Удален</comment>
+  </enumValues>
+</mdclass:Enum>

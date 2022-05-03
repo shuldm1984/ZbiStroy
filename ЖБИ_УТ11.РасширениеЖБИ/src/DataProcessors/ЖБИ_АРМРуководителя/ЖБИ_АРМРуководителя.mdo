@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb09e6e6-c29c-45f0-8a5a-bab8182ed3db">
+  <producedTypes>
+    <objectType typeId="b587326f-0ca7-42e1-b19e-1d41e1b0fc41" valueTypeId="a6685a33-b4f9-4e60-b382-205e1d1184eb"/>
+    <managerType typeId="15509c80-1291-4dba-9604-40647b4fad3c" valueTypeId="9fcda392-b5a5-4c8a-98b5-72c986580eea"/>
+  </producedTypes>
+  <name>ЖБИ_АРМРуководителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - АРМ Руководителя</value>
+  </synonym>
+  <comment>ЖБИ - АРМ Руководителя</comment>
+  <defaultForm>DataProcessor.ЖБИ_АРМРуководителя.Form.Форма</defaultForm>
+  <forms uuid="efb46792-3d12-473f-bd7a-8aa0a2bdbdd2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment>Форма</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c3c7d114-31ba-4620-a967-5c3454b61816">
+    <name>ФормаРедактированияПодписанта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования подписанта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="abbf26ad-7fcc-4bbf-8e48-ddf7bed9cedd">
+    <name>КомандаАРМРуководителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖБИ - АРМ Руководителя</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f039241c-68e1-48af-bcf1-3f0fae15fcfa">
+  <producedTypes>
+    <objectType typeId="ebcef7c8-2e89-4b93-9891-f1021a2308e6" valueTypeId="60c34b64-abb9-4feb-9928-ab80d2a81fa2"/>
+    <refType typeId="fbb7f64c-b6a8-4fe2-b991-7d5c5396b5f5" valueTypeId="ad707bde-1159-4e73-8573-60e29b8a5eef"/>
+    <selectionType typeId="11b77e29-f9ee-4137-ae7c-a21e689967ea" valueTypeId="37f38822-ee6f-40c5-98b4-84ecb2f922da"/>
+    <listType typeId="bb4a35d2-0ec5-4922-a62e-2606e609532a" valueTypeId="84e617ea-c4a6-4e29-92b5-c30a35a5f9e3"/>
+    <managerType typeId="48000d1b-9d3e-4b57-b094-7a89d6cab3e1" valueTypeId="9fed7544-ca58-45d2-96cd-1a4ce57f3d4f"/>
+  </producedTypes>
+  <name>ЖБИ_СпособЗагрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Способ загрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЖБИ_СпособЗагрузки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЖБИ_СпособЗагрузки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

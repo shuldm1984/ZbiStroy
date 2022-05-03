@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc8e4df5-894a-4571-b1ff-c745fd71f3e4">
+  <name>ЖБИ_ОтделСбыта</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Отдел сбыта</value>
+  </synonym>
+  <comment>ЖБИ - Отдел сбыта</comment>
+</mdclass:Role>

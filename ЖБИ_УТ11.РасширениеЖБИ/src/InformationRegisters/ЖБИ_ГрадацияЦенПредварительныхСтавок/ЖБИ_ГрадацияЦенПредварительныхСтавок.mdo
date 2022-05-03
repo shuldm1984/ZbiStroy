@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c523deb7-1261-419f-affa-b43ba6c88652">
+  <producedTypes>
+    <selectionType typeId="6d2ef8d9-4d56-4e95-b159-f7bbb449f2a2" valueTypeId="172e6108-1b48-4bab-88bd-d814445e8232"/>
+    <listType typeId="fe058f63-e8e9-454d-9725-f2703ebdf4b4" valueTypeId="aeaf996b-f9f1-452d-8350-250ffada47b2"/>
+    <managerType typeId="031df7bf-278b-4b61-864f-4b2fb77a3133" valueTypeId="0a49542c-f331-47a0-94ac-7b214fd27ba5"/>
+    <recordSetType typeId="d778ca52-2a7c-4fe3-982b-ecebfbc1d627" valueTypeId="23aaf7f8-ec62-4138-937a-6ab3acf22014"/>
+    <recordKeyType typeId="f12d531a-94e9-4361-8064-890888f3ea82" valueTypeId="5aa6d0f6-6a2f-44ec-80d7-11df62b0d2b5"/>
+    <recordType typeId="fc2cf568-effa-4ce0-977a-be872010d390" valueTypeId="23082f22-04d1-4a5e-8628-154e8af49a6b"/>
+    <recordManagerType typeId="3f7fa25e-96d6-4686-99ec-870eab8609ac" valueTypeId="6d81ec5d-9fb3-4e3a-8587-3d5c79bbdf3b"/>
+  </producedTypes>
+  <name>ЖБИ_ГрадацияЦенПредварительныхСтавок</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Градация цен предварительных ставок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЖБИ_ГрадацияЦенПредварительныхСтавок.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ЖБИ_ГрадацияЦенПредварительныхСтавок.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7193366d-2c39-4d72-af0e-de0d8cb091dc">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="31f25f4a-935b-40e7-ad3d-31ec2726f8d0">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <comment>Автор</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="ea8a371c-7703-420d-9592-307f5789305f">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <comment>Поставщик</comment>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e715bea8-4a87-4bb2-b0f3-34238b4535d6">
+    <name>РасстояниеОт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расстояние от, км</value>
+    </synonym>
+    <comment>Расстояние от, км</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2b16e201-05c3-433f-8cfb-5f42f99adf21">
+    <name>РасстояниеДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расстояние до, км</value>
+    </synonym>
+    <comment>Расстояние до, км</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="16abbe2e-6a62-4a13-b937-467d5dddad97">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8a476126-4ce6-4fe4-a243-6102f99dd9f8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

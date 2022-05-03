@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8eff8ea1-d297-47b6-a1f9-e7f39f03d093">
+  <producedTypes>
+    <objectType typeId="ec9f1305-6072-4934-beef-fc92887073d4" valueTypeId="fb20d228-086a-4712-94e9-445f454956c1"/>
+    <refType typeId="b210d87f-e77c-451b-9376-3ebdf0758173" valueTypeId="8a5aba4b-d7a4-45c0-bbab-b2be1b42fd74"/>
+    <selectionType typeId="f64e9fd5-f22f-49c2-bebb-2bff07ae152d" valueTypeId="4d989b25-effc-49ca-90cc-064287a217df"/>
+    <listType typeId="0a6b1f9d-7067-4b3f-bef1-7d39244d0704" valueTypeId="058b48de-33f8-48a4-8382-c8b13886fab3"/>
+    <managerType typeId="dbd5b6ae-07eb-49ec-b4dc-6d0f7ad5f50a" valueTypeId="b5300c4f-3418-4550-8be9-c13a522fdf51"/>
+  </producedTypes>
+  <name>ЦеновыеГруппы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

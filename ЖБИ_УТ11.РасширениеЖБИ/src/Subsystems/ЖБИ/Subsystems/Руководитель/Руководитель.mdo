@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="012b16de-1b1b-45dd-992a-313a0be5802c">
+  <name>Руководитель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Руководитель</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ЖБИ_АРМРуководителя</content>
+  <content>Document.ЖБИ_ПередачаВОтгрузку</content>
+  <content>DataProcessor.ЖБИ_ЗагрузкаСвойствНоменклатуры</content>
+  <content>DataProcessor.ЖБИ_ЗагрузкаСвойствНоменклатурыПоставщика</content>
+  <content>DataProcessor.ЖБИ_АРМРуководителяОтделаСбыта</content>
+  <parentSubsystem>Subsystem.ЖБИ</parentSubsystem>
+</mdclass:Subsystem>

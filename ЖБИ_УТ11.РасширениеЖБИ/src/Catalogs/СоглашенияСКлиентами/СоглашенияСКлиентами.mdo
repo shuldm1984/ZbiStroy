@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a2b518b2-cd25-4c90-949d-d6125ab3267d" extendedConfigurationObject="2bb5c12e-1217-4c8d-ae01-3a6253cfe429">
+  <producedTypes>
+    <objectType typeId="207b2534-3d7c-43b2-8ca7-72ae91742291" valueTypeId="99f20584-ad44-40bd-9250-a9dc40404730"/>
+    <refType typeId="f0be55c6-875a-4994-b0c1-4c05f2841bb6" valueTypeId="bdc91f6c-d7ed-4fab-b7c9-4b8eb3a9830a"/>
+    <selectionType typeId="f9bbcc96-8726-42ff-b765-3ddd5afb4e9c" valueTypeId="4ff160f9-83a4-44df-ab5b-f80352c91086"/>
+    <listType typeId="fb0e9a56-ff03-4f7f-a6f3-8a185042940c" valueTypeId="fdd71fbf-1285-4e78-bdec-7c193d7dabeb"/>
+    <managerType typeId="13743645-7853-41d6-a23d-3c06744a02c9" valueTypeId="63f6f74f-e3b4-42e6-a16b-7abc22ff6003"/>
+  </producedTypes>
+  <name>СоглашенияСКлиентами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

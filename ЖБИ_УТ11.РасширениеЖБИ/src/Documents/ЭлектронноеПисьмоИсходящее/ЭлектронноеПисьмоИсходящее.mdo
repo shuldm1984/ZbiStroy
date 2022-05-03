@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9d371a9d-e5b7-45a5-a660-28cd9112a895" extendedConfigurationObject="8f2b8a8e-4cd3-45e3-89ae-1cc4bd0ff30a">
+  <producedTypes>
+    <objectType typeId="d7ca80e9-43f5-4c93-8848-c59c806fd4c6" valueTypeId="5bbcd88c-4f86-4a1f-a9ef-bf01bc041e67"/>
+    <refType typeId="47ba94be-0937-452f-880c-b75baf21fe50" valueTypeId="dd3381ac-229b-4b9f-a6f5-d29381634c95"/>
+    <selectionType typeId="c9442923-062a-4000-9d1a-03361c428584" valueTypeId="acb23116-1fe5-4c5a-a475-2432e255a501"/>
+    <listType typeId="5947d79a-af62-4635-bfd6-a4070f7e75e4" valueTypeId="847ef5b1-aa58-49aa-8667-04f1dda692e0"/>
+    <managerType typeId="f34de6f0-3241-420e-890d-e2f28d2f7f24" valueTypeId="43bf1e1c-4303-43e3-9ccd-6c6a1cc698b2"/>
+  </producedTypes>
+  <name>ЭлектронноеПисьмоИсходящее</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="40efd423-14f6-4510-a9ee-e78d6646efc0">
+    <name>ЖБИ_ШаблонПисьмаТема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема письма</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.ЖБИ_ШаблонПочтовыхСообщений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ТипСообщения</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ЖБИ_ТипыСообщения.EnumValue.ТемаПисьма</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="609d8ab2-45e5-4c9c-ab3d-b3e063b3f8b0" extendedConfigurationObject="ce2a8ff8-94fd-4ce2-9caa-4711e9b79ee9">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

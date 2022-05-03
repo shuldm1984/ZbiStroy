@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3f0b3888-c5f4-4f70-bb5d-268b9bb56610">
+  <producedTypes>
+    <refType typeId="df762ab6-ec74-4460-a656-2983373a7fb7" valueTypeId="7dfa41cc-2fdd-4bd2-af68-1b96bb44fa3e"/>
+    <listType typeId="517eab0d-d974-46aa-96a9-7f3f37bd1082" valueTypeId="b34c6700-3613-4099-9d27-bdc1af6c8ae2"/>
+    <managerType typeId="2e745b8d-707a-47a2-b39c-4bd22f1783c6" valueTypeId="5a10e00b-a17e-41e9-8abe-c6b094dd3b88"/>
+  </producedTypes>
+  <name>ГрадацииКачества</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

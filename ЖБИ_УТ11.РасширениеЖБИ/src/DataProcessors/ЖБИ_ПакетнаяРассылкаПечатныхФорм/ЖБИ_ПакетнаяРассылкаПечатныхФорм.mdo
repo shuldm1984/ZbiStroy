@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffffe230-93a5-4da2-832d-5f889a6c48dc">
+  <producedTypes>
+    <objectType typeId="8913efd2-2706-465f-8f31-55ec840e8216" valueTypeId="7008c28c-3a18-44bd-b319-ce8d1b2c63fe"/>
+    <managerType typeId="f61edf56-c6ff-44dc-a153-7dfe94224401" valueTypeId="366a1425-7529-45a3-80b0-2dbe29c35759"/>
+  </producedTypes>
+  <name>ЖБИ_ПакетнаяРассылкаПечатныхФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Пакетная рассылка печатных форм</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЖБИ_ПакетнаяРассылкаПечатныхФорм.Form.Форма</defaultForm>
+  <forms uuid="c3f13a78-518a-4068-821f-675dd664be97">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

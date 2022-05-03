@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4642f74c-b902-4ee6-b9c0-1fb49160d510">
+  <producedTypes>
+    <selectionType typeId="d08bcc2f-30d9-4097-b367-02ab2ef98f7b" valueTypeId="a59ebee8-e0be-4f70-b229-7ef8f705aa8e"/>
+    <listType typeId="b4fc0893-b7c8-452e-94fa-8c6ebbf69eb3" valueTypeId="186be681-9424-446e-9023-c581f7a6d72e"/>
+    <managerType typeId="3e3942d0-bd92-4a56-aa4c-5a3945864d74" valueTypeId="4faa47b9-939e-43e6-af39-edd76c9c5e03"/>
+    <recordSetType typeId="8681813f-55db-49fa-9cc8-f2675baa36e1" valueTypeId="0b3546a8-721f-4ac3-9e3f-fb5662a5c129"/>
+    <recordKeyType typeId="34fc6c3a-d9b3-4e5f-b2dc-40405a353034" valueTypeId="451972b3-4435-4ef5-ad87-5786b2eafdaa"/>
+    <recordType typeId="371a9224-5a75-40e8-8d82-9492632ede74" valueTypeId="44389583-5409-4578-a64b-18f779b91171"/>
+  </producedTypes>
+  <name>ЖБИ_ПередачаВОтгрузку</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Передача в отгрузку</value>
+  </synonym>
+  <comment>ЖБИ - Передача в отгрузку</comment>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="fcf0dfa4-0980-4771-9e0f-7e198f88244c">
+    <name>ПереданоВОтгрузку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передано в отгрузку</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="8f2ca503-523a-4457-90c4-72b6e191b105">
+    <name>Грузится</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузится</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="973bddc0-2f24-4cf5-9b03-c2ea7d2fd1ae">
+    <name>Отгружено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгружено</value>
+    </synonym>
+    <comment>Отгружено</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="ad8ce3cc-ab51-44d7-b1e5-0eb8541a5e50">
+    <name>УкрупненнаяСтавка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Укрупненная ставка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b614039a-6611-4295-b765-9336b513f8b2">
+    <name>НормаАвто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норма погрузки</value>
+    </synonym>
+    <comment>Норма погрузки</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="9dcd0dfe-c756-4d1d-9ef4-181f166f8e0b">
+    <name>Негабаритный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не габарит</value>
+    </synonym>
+    <comment>Не габарит</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0f1e3209-ccf0-4fd0-8c3b-ea8128f0a5df">
+    <name>ПунктОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт отгрузки</value>
+    </synonym>
+    <comment>Пункт отгрузки</comment>
+    <type>
+      <types>CatalogRef.ЖБИ_ПунктыНазначенияОтгрузки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пункт отгрузки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>0:61a3c74b-6756-4957-85ab-ef64a3783d0e/0:07d7336c-8c00-46a2-9e1b-dd30e82a5702</field>
+    </choiceParameterLinks>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="2bad813c-2adc-4a54-91dd-bd21bec64b77">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация, от имени которой оформлена операция.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="95a144da-61a4-4ba6-a256-1468f6ca6b66">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подразделение, по которому отражена операция.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5e63a0b4-ba90-44fa-9fe1-cc42435f6ce2">
+    <name>ЗаявкаПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка покупателя</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЖБИ_ЗаявкиПокупателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="f9fdac85-53ef-4ba7-83ac-d4a1ec2d2d45">
+    <name>ПередачаВОтгрузку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача в отгрузку</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЖБИ_ПередачаВОтгрузку</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="54ad1b03-21f4-439f-ac08-1d1db0a19863">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <comment>Поставщик</comment>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Поставщик</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="df8af3b3-f0f7-44d6-ae7e-b6636ca07a47">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номенклатура, по которой учитываются обязательства поставщика.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6d6c3f73-e01a-45bc-a80a-fb7b42a61dad">
+    <name>НоменклатураПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура поставщика</value>
+    </synonym>
+    <comment>Номенклатура поставщика</comment>
+    <type>
+      <types>CatalogRef.НоменклатураПоставщиков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="18a7bfb4-c9c6-482e-908e-15d22daebf04">
+    <name>КодСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код строки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уникальный идентификатор строки заказа.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

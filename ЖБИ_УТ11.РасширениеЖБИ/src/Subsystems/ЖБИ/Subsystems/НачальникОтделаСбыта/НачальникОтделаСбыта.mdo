@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c811a1c3-522c-4bdd-a020-1df3dc36e1c1">
+  <name>НачальникОтделаСбыта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начальник отдела сбыта</value>
+  </synonym>
+  <comment>Начальник отдела сбыта</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ЖБИ_ЗаявкиПокупателей</content>
+  <content>Document.ЗаказКлиента</content>
+  <content>DataProcessor.ЖБИ_CRM</content>
+  <content>InformationRegister.ЖБИ_НоменклатураПоставщиков</content>
+  <content>Document.ЖБИ_ФактическиеОтгрузки</content>
+  <content>DataProcessor.ЖБИ_АРМПланОтгрузкиМенеджер</content>
+  <content>Document.ЖБИ_ПередачаВОтгрузку</content>
+  <content>DataProcessor.ЖБИ_АРМРуководителяОтделаСбыта</content>
+  <parentSubsystem>Subsystem.ЖБИ</parentSubsystem>
+</mdclass:Subsystem>

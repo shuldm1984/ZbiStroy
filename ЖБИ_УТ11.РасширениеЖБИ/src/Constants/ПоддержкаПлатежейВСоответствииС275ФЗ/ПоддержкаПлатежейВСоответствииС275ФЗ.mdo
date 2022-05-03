@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3a51d1a0-9a97-4441-8160-bef02ac13c97" extendedConfigurationObject="3720e805-df4b-46c5-b4d5-64b9db9b132e">
+  <producedTypes>
+    <managerType typeId="574b1903-d702-4c30-856c-d085732c7e8a" valueTypeId="c46a9dd7-e1fe-4d09-81fb-f196cbd197d8"/>
+    <valueManagerType typeId="eaafdf15-52d4-41c5-87d6-c4385784113a" valueTypeId="74e894af-86b7-4066-9f77-b0e6cacfdf9f"/>
+    <valueKeyType typeId="3cef7cf0-6025-49ce-ada9-8144aa3b82f7" valueTypeId="ca7afc96-8cb2-447a-b5dd-b7a58aa94b6d"/>
+  </producedTypes>
+  <name>ПоддержкаПлатежейВСоответствииС275ФЗ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

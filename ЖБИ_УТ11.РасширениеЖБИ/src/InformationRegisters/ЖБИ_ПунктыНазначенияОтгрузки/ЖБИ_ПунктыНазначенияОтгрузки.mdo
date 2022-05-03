@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0c213c0-dbba-40b6-ba23-bb583a8f8214">
+  <producedTypes>
+    <selectionType typeId="e56bc702-cf21-4055-bde7-2ca6c6385db8" valueTypeId="2a10b23c-39bc-4d2c-84de-86b300e819da"/>
+    <listType typeId="899abe6d-1917-4bc0-8162-ae05fece90e2" valueTypeId="7e5fd6cb-857d-487a-9403-93728738c22b"/>
+    <managerType typeId="fc6039f7-3276-4e7f-9274-8cfb5a9ebbe8" valueTypeId="c4513913-0bcc-43e1-97b8-45bd9f6ba712"/>
+    <recordSetType typeId="2bf2182b-d272-41d1-8018-0858f66f783c" valueTypeId="37022ee8-c84d-4cbc-95b3-0c2a48a3f3cc"/>
+    <recordKeyType typeId="495f66b4-8aac-4b88-bb96-600bfcfae052" valueTypeId="beba5f6b-4db5-4af2-9c80-143ad0d01694"/>
+    <recordType typeId="443f7f61-185b-438d-b131-8d84f7c88c6b" valueTypeId="7e9c2953-3d17-45aa-9410-84fa80be3964"/>
+    <recordManagerType typeId="d5fdc6cc-689f-468e-a72b-0ae8f2a6a1bd" valueTypeId="10618826-0847-4b89-a6f3-61a0b2a4e920"/>
+  </producedTypes>
+  <name>ЖБИ_ПунктыНазначенияОтгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Пункты назначения/отгрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЖБИ_ПунктыНазначенияОтгрузки.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e4c9f815-9ebe-4ce5-84ac-2808c45950b1">
+    <name>НомерОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>№ отгрузки</value>
+    </synonym>
+    <comment>№ отгрузки</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="d4c399e9-548a-46e7-a2c9-47c27c451603">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <comment>Автор</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="0fcab4d5-c3bb-4f69-b773-961029a703c7">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <comment>Партнер</comment>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1b902fa7-050f-436c-8bd1-88674ab22994">
+    <name>ПунктНазначенияОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт назначения/отгрузки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЖБИ_ПунктыНазначенияОтгрузки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a91bcfc2-accd-4a74-82fb-9f49a339f1bf">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4005fad6-0cb9-4c13-9070-3896efeb14ac">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

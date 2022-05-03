@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43182e6f-9828-44de-a58a-5b06466b7bfe">
+  <producedTypes>
+    <selectionType typeId="1719b8b2-68a3-4cba-9b78-8fad05f607d9" valueTypeId="817f3560-7e51-4232-8f07-4b9cb077f4cc"/>
+    <listType typeId="24882448-41ba-4cb4-95f1-fcba4580b5a2" valueTypeId="90116adf-965c-42b8-ac96-db3d93c3f276"/>
+    <managerType typeId="d760fec6-fde1-4ed3-aacd-ca6d1a500915" valueTypeId="93c3c248-77e3-48e2-bfc3-bacc757abf1f"/>
+    <recordSetType typeId="4259f06b-9ea8-4463-980c-5d9bda22960c" valueTypeId="56257a6f-601e-4d6d-bd2d-2dda4dd63dcd"/>
+    <recordKeyType typeId="b2fefbff-7005-40d3-86e2-9965e80641f1" valueTypeId="209e618d-ee39-4fc7-94fd-28e5598e6871"/>
+    <recordType typeId="602448ac-f1ab-4494-8883-e751b06fd7ca" valueTypeId="a9f5dac6-4fa1-472d-9c66-d4590b5ddf04"/>
+    <recordManagerType typeId="ba318abb-15e1-477a-85d2-0b2df4dadfa0" valueTypeId="0d9e44bd-2636-4d12-b412-0797d1399de9"/>
+  </producedTypes>
+  <name>ЖБИ_НумераторПоПеревозчикам</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Нумератор по перевозчикам</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ЖБИ_НумераторПоПеревозчикам.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e61a15e4-35f9-475b-ae7f-6c7dbef83841">
+    <name>НомерПоПорядку</name>
+    <synonym>
+      <key>ru</key>
+      <value>№ п.п.</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="53baf938-7982-4743-88a0-6fec2639f760">
+    <name>ДокументПеревозчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>ы</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЖБИ_ДоговорЗаявка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="934f09e2-4f51-49b4-8b74-5b2dc1037d82">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <comment>Автор</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="9571fff1-e350-4888-be97-d7abb2d20d7a">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="afd9b73d-6375-497a-83f2-16d743ecfeb7">
+    <name>ДоговорПеревозки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор перевозки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e2029034-98a8-4939-81b2-6715f154d6b0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

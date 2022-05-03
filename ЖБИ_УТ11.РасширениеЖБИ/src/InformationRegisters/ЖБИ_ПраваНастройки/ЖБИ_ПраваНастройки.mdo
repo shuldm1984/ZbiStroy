@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a875ced3-6e9e-4500-b9e5-337f1ea259a8">
+  <producedTypes>
+    <selectionType typeId="9f8c68b4-3761-41d4-b9d7-b11fe205a24e" valueTypeId="bb5226eb-8975-42ba-89a8-de08aa728198"/>
+    <listType typeId="d2188cf6-c734-483a-bccf-d4d2301c2a23" valueTypeId="cee75703-fd4b-4270-929e-4ff01abe5fe8"/>
+    <managerType typeId="dd3c6d75-f6c6-4676-86dd-ab7eb50b3b95" valueTypeId="772df328-1526-4931-8f9e-7e5303d0c232"/>
+    <recordSetType typeId="bad56c59-5186-484e-a969-f7ceaae48875" valueTypeId="3d7a15ed-9256-4870-af33-d26049ed99bc"/>
+    <recordKeyType typeId="3d6127da-a04c-4b73-9ebd-bff5d87017c1" valueTypeId="3ac5ad75-be8c-4f9d-ad2d-154058305f16"/>
+    <recordType typeId="c6521a00-8876-4a77-9f40-9ea69d902092" valueTypeId="fc24766e-6e41-4477-98a5-5644b4c0eaf6"/>
+    <recordManagerType typeId="51f035f1-0bf6-4e4d-9619-66ed23ed999c" valueTypeId="13efc513-2851-4df0-b924-0a766f54ed64"/>
+  </producedTypes>
+  <name>ЖБИ_ПраваНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Права и настройки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e31c22ba-c2c1-4334-b4d5-44bad99b9476">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ЖБИ_ПраваНастройки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="d28d2586-e9fb-4895-8fde-c344b9f298e9">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <comment>Автор</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="d321db9e-60fa-43d8-ad65-58e12eda0c78">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.СтруктураПредприятия</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f9bcd6de-16da-42f4-9974-d637de675a49">
+    <name>ПравоНастройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Право / настройка</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ЖБИ_ПраваНастройки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf6ca5dc-a4a5-4e40-b751-ad45855c2c8c">
+  <producedTypes>
+    <refType typeId="791da1e3-1f7e-440b-9312-07700ead171b" valueTypeId="1113dc71-b7f7-4307-b865-81b86db5f85d"/>
+    <listType typeId="d2f1d40a-c650-4dca-9be6-85eba598391c" valueTypeId="d66940eb-6b46-42e7-8950-284603cef1d8"/>
+    <managerType typeId="d3c81dcd-0754-42b5-864b-a456765431f9" valueTypeId="b5934fea-83ae-4ec0-a65f-b57e4c6369f0"/>
+  </producedTypes>
+  <name>ЖБИ_НазначениеПравИНастроек</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Назначение прав и настроек</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8b12ad52-c76e-4ce8-9584-2cacd0a81e22">
+    <name>Компания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="33d9b9aa-6291-485f-90df-e09a784e3dc4">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d65ce3a-98bd-45e8-a6c6-8678cc1ca5f1">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f086d94a-f488-488a-8d0b-8a4ec189b3b3">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

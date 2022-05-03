@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="711a94a7-e397-4f52-98d3-47413e29747d">
+  <producedTypes>
+    <refType typeId="3380c260-9642-4084-8cb0-8a9389ccaf6b" valueTypeId="5d613b51-d582-42d3-ace2-aac334d1eba7"/>
+    <listType typeId="93902385-1018-4d5a-94f1-ca357c721b8d" valueTypeId="24747742-4749-4f85-8c55-05fa5210f96d"/>
+    <managerType typeId="b343cdc5-db6f-483e-9665-c0dcc1d2cfbb" valueTypeId="d724e992-22c8-42b2-85e5-0caa506ed722"/>
+  </producedTypes>
+  <name>СпособыВыпускаВОборотГИСМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

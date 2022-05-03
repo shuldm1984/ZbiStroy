@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4df367c8-7d01-4a6b-9630-6c82b01c13b3">
+  <producedTypes>
+    <objectType typeId="0e020a58-371a-4be3-b2d6-7d5b2f4fffa8" valueTypeId="18586377-ba33-4a76-9680-cf39c54db46b"/>
+    <refType typeId="3d0f175d-1527-4c63-8deb-52400698ec39" valueTypeId="f8271b84-1901-4c91-a627-8ade0cd56667"/>
+    <selectionType typeId="c83bc52c-e614-4e66-baee-3a7684609389" valueTypeId="9dbca77c-0ea8-4238-9427-b9a664a9791d"/>
+    <listType typeId="71a428a1-d337-479e-9143-fec92883332a" valueTypeId="3f96e099-21a1-43ee-a996-6aba9e375cb9"/>
+    <managerType typeId="9a86a54f-4dd6-477c-88c3-e3d86a95993b" valueTypeId="8f44cc49-b47e-4956-af0c-f3fa5039c2df"/>
+  </producedTypes>
+  <name>ЖБИ_ЭлектронныеПодписиПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Электронные подписи пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЖБИ_ЭлектронныеПодписиПользователей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЖБИ_ЭлектронныеПодписиПользователей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЖБИ_ЭлектронныеПодписиПользователей.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="2a48d486-29ba-4acb-ab71-1c0fcc268958">
+    <name>ТекстHTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст HTML</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст письма, если оно создано в формате HTML. Собственно текст письма хранится в реквизите «текст»</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3e6426a7-60bf-439c-aedd-8641f948d719">
+    <name>СлужебнаяКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебная код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>55</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f4cb9a61-b859-4943-847c-6c247aacc95a">
+    <name>УчетнаяЗаписьЭлектроннойПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись электронной почты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="64c5adc7-d7e3-4147-adac-8e43db5c3781">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

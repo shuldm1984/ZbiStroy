@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d42fd442-1e8e-4a61-ab46-cc5008d00d70">
+  <producedTypes>
+    <refType typeId="b2cc2084-23d5-4405-9155-9c69480b3d96" valueTypeId="e8baeb63-ea1d-4e23-b737-1b4e3de66d67"/>
+    <listType typeId="18a208c3-8016-45b0-b77a-241899651070" valueTypeId="8d4da6a3-4895-481b-9d63-f9f106601dd2"/>
+    <managerType typeId="7b29ed97-a52d-444f-b532-034c3c646efa" valueTypeId="0928dffa-d3c9-4790-b653-d6a220e7f1d6"/>
+  </producedTypes>
+  <name>КомпанияЧастноеЛицо</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

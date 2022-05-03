@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5d3710a-c207-4b07-aa4f-f4a01970baac">
+  <producedTypes>
+    <objectType typeId="067176be-a2b5-4834-8674-b445315eb87a" valueTypeId="b9e40f3f-51c3-42a7-83f0-5615803898d8"/>
+    <managerType typeId="72e1d6ec-d513-43d8-924e-b85c1062816b" valueTypeId="93c28935-4b0c-42e3-b63d-d3786726efe2"/>
+  </producedTypes>
+  <name>ЖБИ_ЗагрузкаСвойствНоменклатурыПоставщика</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Загрузка свойств номенклатуры Поставщика</value>
+  </synonym>
+  <defaultForm>DataProcessor.ЖБИ_ЗагрузкаСвойствНоменклатурыПоставщика.Form.Форма</defaultForm>
+  <forms uuid="47f59a29-8ce6-4e9a-a233-994a0c8152cd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="45483545-8b5c-4147-bcab-51f922500d60">
+    <name>СвойстваНоменклатурыПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства номенклатуры поставщика</value>
+    </synonym>
+  </templates>
+  <commands uuid="c6d474cd-6abe-4384-bf47-e7a51dc1a1b4">
+    <name>КомандаЗагрузкаСвойствНоменклатурыПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖБИ - Загрузка свойств номенклатуры Поставщика</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

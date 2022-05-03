@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f80cd245-8b6a-4047-a430-8c4c1153ddb1">
+  <producedTypes>
+    <objectType typeId="24cd7136-19a7-4461-9831-56f6f9460b70" valueTypeId="24304f39-ba79-4a84-98e2-71ab475f447b"/>
+    <refType typeId="74933d51-22e4-4a21-8e20-11abc1b64a6e" valueTypeId="42621777-0a66-4894-bb59-1e685940acee"/>
+    <selectionType typeId="56aaaa3c-3fb7-4457-914c-ccdf3b0a4d15" valueTypeId="4c620d42-a704-4820-b5fb-32224447ed14"/>
+    <listType typeId="a9542aac-31cd-4187-a730-092948da93f7" valueTypeId="f75c436f-019e-4049-9a6f-97ff20044042"/>
+    <managerType typeId="39c4b440-16e6-46a5-867f-938a55069c61" valueTypeId="227d8869-2085-499a-844a-f50dfac5a501"/>
+  </producedTypes>
+  <name>ПрофилиГруппДоступа</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="8cdaa2b3-199a-4241-849e-9861039f53b5">
+      <name>ЗакупкиИЗапасы</name>
+      <description>Закупки и запасы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="bc525e70-0da5-4b96-a2d9-17a6206ca7f4">
+        <name>МенеджерПоОбеспечениюПотребностей</name>
+        <description>Менеджер по обеспечению потребностей</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="82a11e2b-e58f-4014-ada9-ab8d4da8062a">
+      <name>Продажи</name>
+      <description>Продажи</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="711af3fb-09d9-419e-aa13-e7cf6d43323d">
+        <name>МенеджерПоПродажам</name>
+        <description>Менеджер по продажам</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="0b4542be-1af4-4b07-a4a3-76b5f4488635">
+        <name>РуководительОтделаПродаж</name>
+        <description>Руководитель отдела продаж</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="a8eaa5d1-25ad-43a8-b6a3-c3f8d09cd8fc">
+      <name>АдминистрированиеИНСИ</name>
+      <description>Администрирование и НСИ</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="bdfc0c63-cea5-4589-8256-65d043f6063c">
+        <name>Администратор</name>
+        <description>Администратор</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+</mdclass:Catalog>

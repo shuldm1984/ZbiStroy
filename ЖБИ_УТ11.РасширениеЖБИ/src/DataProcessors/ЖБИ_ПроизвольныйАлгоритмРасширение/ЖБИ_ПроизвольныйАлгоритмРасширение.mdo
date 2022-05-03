@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37d9ae2f-e1c9-40b8-9485-56df2a87d5d1">
+  <producedTypes>
+    <objectType typeId="f5c2bd2d-24b8-48ae-887f-360f4c613441" valueTypeId="5ad01a37-2c04-4b1d-8d38-b1e0877ec845"/>
+    <managerType typeId="42daa6d7-d580-4787-9ddf-1f6649894f66" valueTypeId="5ff41875-9ed2-47e0-be76-7caacdf08f64"/>
+  </producedTypes>
+  <name>ЖБИ_ПроизвольныйАлгоритмРасширение</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Произвольный алгоритм расширение</value>
+  </synonym>
+  <comment>ЖБИ - Произвольный алгоритм расширение</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЖБИ_ПроизвольныйАлгоритмРасширение.Form.Форма</defaultForm>
+  <forms uuid="21dd5afe-9271-4480-bd72-7f23e6d4cb24">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

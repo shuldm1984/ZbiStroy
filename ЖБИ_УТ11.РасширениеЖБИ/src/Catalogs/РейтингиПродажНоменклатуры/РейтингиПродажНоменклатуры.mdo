@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="74ed3249-77d6-4688-a9b2-e23959bcd500">
+  <producedTypes>
+    <objectType typeId="6998a707-7e90-4179-acd6-3aa540019b92" valueTypeId="a46b8f5e-0623-4086-92c8-6db0564d103a"/>
+    <refType typeId="083e7f7a-bc5e-4165-876b-ac6b2a516f5f" valueTypeId="7c484143-c978-43c5-a9e6-a28f093352f4"/>
+    <selectionType typeId="eb4e9c5c-4ed1-4e03-8998-be2f9f6c9746" valueTypeId="06e4fbb2-1d43-4401-bc6b-3bad8408e799"/>
+    <listType typeId="9708e0a0-1338-429b-833b-2196c7212e2e" valueTypeId="701063a0-2dd1-4043-8e5b-2f1ec44c7713"/>
+    <managerType typeId="1779e9d2-c43b-4f54-832d-c5ae7cde4b14" valueTypeId="db154125-5051-4949-b29f-fd39eb13fd9a"/>
+  </producedTypes>
+  <name>РейтингиПродажНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

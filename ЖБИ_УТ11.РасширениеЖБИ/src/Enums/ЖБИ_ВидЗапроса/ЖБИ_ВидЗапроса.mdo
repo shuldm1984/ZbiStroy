@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd3f4771-c71a-4de7-b99e-8c6a56d0f213">
+  <producedTypes>
+    <refType typeId="79240c22-9932-41b3-b01a-5da5ee00cc93" valueTypeId="19f9e31b-a51c-484c-8f5f-d1f663421a4d"/>
+    <listType typeId="cc32fcea-be70-4f02-a0b7-c975d4f0e767" valueTypeId="07beb7b2-26b0-48a4-ba58-cc7f6a4e61c7"/>
+    <managerType typeId="c5c53897-2a1f-41ab-b2ef-4e2d6a49659d" valueTypeId="6083b3bc-b2a8-4b79-b55d-b8903c593fec"/>
+  </producedTypes>
+  <name>ЖБИ_ВидЗапроса</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ вид запроса</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="13c565da-d423-4ec6-92f9-c2e4aa3907fa">
+    <name>ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d0987db-ce66-4261-abfc-80242797cfcf">
+    <name>getpricelist</name>
+    <synonym>
+      <key>ru</key>
+      <value>getpricelist</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

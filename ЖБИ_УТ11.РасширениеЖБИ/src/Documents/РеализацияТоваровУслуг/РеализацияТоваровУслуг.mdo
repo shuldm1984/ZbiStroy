@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="25be3137-492a-4df7-8e82-ca0a66a73c40" extendedConfigurationObject="8eac9a31-ed8b-4965-85f9-086b89e1764b">
+  <producedTypes>
+    <objectType typeId="5e443769-b6e2-4c3a-ac42-124dae9330ed" valueTypeId="6feaf64f-0e35-4f5d-9649-be8713ef7c9a"/>
+    <refType typeId="70d4dd8c-8b5d-495f-b1f9-f160106ec245" valueTypeId="80a63409-ff15-4541-9330-c716665d7f2a"/>
+    <selectionType typeId="2ff0dfef-43a0-4880-b310-cde3acc6cad7" valueTypeId="01d94888-c974-4604-a8bf-9132a107bb51"/>
+    <listType typeId="f39b56d7-f71a-4e5d-881d-6884bc0af6ae" valueTypeId="948fe82c-9bd4-4766-a93a-896bca23281f"/>
+    <managerType typeId="487c43e4-a3fa-48f7-a280-71955c2ebb22" valueTypeId="a2400d34-8103-43b5-b3ea-7c384688b10c"/>
+  </producedTypes>
+  <name>РеализацияТоваровУслуг</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <tabularSections uuid="bd726010-7172-4574-a02c-24346535d040" extendedConfigurationObject="8139626e-8ad5-43ef-8108-a207607b40b5">
+    <producedTypes>
+      <objectType typeId="e50f6822-ed6f-42cd-9432-a199125fe68a" valueTypeId="ab4c58bb-7914-4b29-986c-667a914cd8f0"/>
+      <rowType typeId="93e0cf9b-d053-45de-b493-81efac8ae876" valueTypeId="04300dc9-dec2-4b5a-88cd-ff6e94fd006f"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="83a6df79-9125-4b11-97ac-7144b0e83597">
+      <name>ЖБИ_НоменклатураПоставщика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура поставщика</value>
+      </synonym>
+      <comment>Номенклатура поставщика</comment>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.НоменклатураПоставщиков</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a2371c1-7b34-4d02-8d96-cc045451a523">
+  <name>Логисты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логисты</value>
+  </synonym>
+  <comment>Логисты</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ЖБИ_РасчетПлановыхСтавок</content>
+  <content>Document.ЖБИ_ПодтверждениеПлановыхСтавок</content>
+  <content>Document.ЖБИ_ИндивидуальныеУсловияПоставки</content>
+  <content>DataProcessor.ЖБИ_ЗагрузкаЦенПоставщикаСХарактеристиками</content>
+  <content>DataProcessor.ЖБИ_АРМЛогиста</content>
+  <content>InformationRegister.ЖБИ_НоменклатураПоставщиков</content>
+  <content>DataProcessor.ЖБИ_CRM</content>
+  <content>Catalog.ЖБИ_НормативныеДокументы</content>
+  <content>CommonCommand.ЖБИ_ОбновлениеЦенПоставщика</content>
+  <content>DataProcessor.ЖБИ_АРМПланОтгрузкиЛогист</content>
+  <content>Document.ЖБИ_ФактическиеОтгрузки</content>
+  <content>DataProcessor.ЖБИ_ЗагрузкаСвойствНоменклатурыПоставщика</content>
+  <content>DataProcessor.ЖБИ_ЗагрузкаСвойствНоменклатуры</content>
+  <parentSubsystem>Subsystem.ЖБИ</parentSubsystem>
+</mdclass:Subsystem>

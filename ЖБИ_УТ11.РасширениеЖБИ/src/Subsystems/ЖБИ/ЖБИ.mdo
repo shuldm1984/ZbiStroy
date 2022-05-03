@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ac33f98-bfdd-4cfb-8a7b-ed522eca8647">
+  <name>ЖБИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ</value>
+  </synonym>
+  <comment>ЖБИ</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ЖБИ_Подсистема</picture>
+  </picture>
+  <content>Enum.ЖБИ_СтатусКонтрагента</content>
+  <content>Role.ЖБИ_ОсновнаяРоль</content>
+  <content>CommonModule.ЖБИ_ОбщийМодульСправочники</content>
+  <content>Enum.ЖБИ_СтатусЗаявкиПокупателя</content>
+  <content>Enum.ЖБИ_ТипыОплаты</content>
+  <content>Enum.ЖБИ_ТипыЗаказов</content>
+  <content>Enum.ЖБИ_ТипыОтгрузки</content>
+  <content>Enum.ЖБИ_СтатусРасчетаСтавки</content>
+  <content>Enum.ЖБИ_ВидыСтавок</content>
+  <content>CommonPicture.ЖБИ_Подсистема</content>
+  <content>CommonModule.ЖБИ_ОбщийМодульДокументы</content>
+  <content>CommonModule.ЖБИ_ОбщийМодульКлиентСервер</content>
+  <content>CommonModule.ЖБИ_ОбщийМодульОтчетыИОбработки</content>
+  <content>Role.ЖБИ_Логисты</content>
+  <content>Role.ЖБИ_ОтделСбыта</content>
+  <content>Catalog.КонтактныеЛицаПартнеров</content>
+  <content>Document.ЗаказКлиента</content>
+  <content>Document.ЗаказПоставщику</content>
+  <content>Document.ДоверенностьВыданная</content>
+  <content>Document.ТранспортнаяНакладная</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Enum.ЖБИ_СпособОбмена</content>
+  <content>Catalog.ЖБИ_НастройкиДоставкиСообщений</content>
+  <content>ExchangePlan.ЖБИ_ОбменССайтом</content>
+  <content>Enum.ЖБИ_ВидЗапроса</content>
+  <content>InformationRegister.ЖБИ_ПунктыНазначенияОтгрузки</content>
+  <content>Role.ЖБИ_НачальникОтделаСбыта</content>
+  <content>ChartOfCharacteristicTypes.ЖБИ_ПраваНастройки</content>
+  <content>InformationRegister.ЖБИ_ПраваНастройки</content>
+  <content>Enum.ЖБИ_НазначениеПравИНастроек</content>
+  <content>Enum.ЖБИ_Важность</content>
+  <subsystems>ОбъектыПодсистемы</subsystems>
+  <subsystems>ОтделСбыта</subsystems>
+  <subsystems>НачальникОтделаСбыта</subsystems>
+  <subsystems>Логисты</subsystems>
+  <subsystems>Руководитель</subsystems>
+  <subsystems>НСИ</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74d9551b-5cf4-4ac7-95c7-bcfaabae92a9">
+  <producedTypes>
+    <selectionType typeId="33a410df-bc0e-4dbc-933c-9b9be6a69c19" valueTypeId="198dea24-b2e6-4ae0-ae4e-d2260f6498b3"/>
+    <listType typeId="780b659f-8cd3-4521-b5e4-46079dcffd07" valueTypeId="07d02a6d-8a77-48da-89b3-abece28e8b69"/>
+    <managerType typeId="a9acbd3e-b983-4933-8ae0-4fc34115e7c8" valueTypeId="9ab5eb9a-b4e8-4124-a176-baabbf3eb55f"/>
+    <recordSetType typeId="5777bccd-a9fd-443f-8f39-4283c8b6285b" valueTypeId="71f644ae-441b-4896-a468-08eec9667172"/>
+    <recordKeyType typeId="c4464257-40c2-4e0d-8e3c-9e1ea68244f9" valueTypeId="10471f9f-4d7a-4b6f-9e54-9ad353658b8c"/>
+    <recordType typeId="98a3e94d-554a-4883-b472-eeb9a1e2d678" valueTypeId="4476a83a-6624-4219-b29f-a9691f017348"/>
+    <recordManagerType typeId="6d8499b5-4691-4e1c-8440-c9234a519616" valueTypeId="35c33987-0e13-44b0-911e-764c331f6380"/>
+  </producedTypes>
+  <name>ЖБИ_РегистрацияОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Регистрация обмена</value>
+  </synonym>
+  <comment>ЖБИ - Регистрация обмена</comment>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЖБИ_РегистрацияОбмена.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7c7ddaa7-4158-4e5f-8591-1e299bf03182">
+    <name>ТекстЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст запроса</value>
+    </synonym>
+    <comment>Текст запроса</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="0385ebd7-64cc-405c-9fea-25c252cd0619">
+    <name>ТекстОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ответа</value>
+    </synonym>
+    <comment>Текст ответа</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="296c2e8b-788b-4cda-9c50-95da02ff965e">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment>Пользователь</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8f6927c7-b8c1-4baf-9ac6-f6471506edb1">
+    <name>ОбменВыполненУспешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен выполнен успешно</value>
+    </synonym>
+    <comment>Обмен выполнен успешно</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1ddc64f9-7816-447b-96dd-a9d2391e20b4">
+    <name>ВидЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид запроса</value>
+    </synonym>
+    <comment>Вид запроса</comment>
+    <type>
+      <types>EnumRef.ЖБИ_ВидЗапроса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="5d719e4e-6538-4835-bb25-643d8f269241">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

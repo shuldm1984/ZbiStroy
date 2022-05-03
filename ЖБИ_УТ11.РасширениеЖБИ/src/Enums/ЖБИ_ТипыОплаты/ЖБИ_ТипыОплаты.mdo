@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0222ce3-fdba-4c79-9c7b-e8bcee5dcd1c">
+  <producedTypes>
+    <refType typeId="fb481f42-b7d2-479c-ae37-2e2f90ff7c48" valueTypeId="e0ec1ac3-ef41-4a01-b102-96d9bac50d23"/>
+    <listType typeId="fb679e6a-fc9f-4b16-b210-a720cd30ad9b" valueTypeId="a3b6a380-7200-4568-8ca1-74b226294bca"/>
+    <managerType typeId="bed7bbf6-de1c-44a9-926b-9723c859bca8" valueTypeId="1832ac23-58d6-48ba-b50c-dd97f71a6ac9"/>
+  </producedTypes>
+  <name>ЖБИ_ТипыОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Типы оплаты</value>
+  </synonym>
+  <comment>ЖБИ - Типы оплаты</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>ЖБИ - Тип оплаты</value>
+  </listPresentation>
+  <enumValues uuid="0d76cf4b-d8d2-46ae-8e5a-4e5dc550e0e3">
+    <name>Предоплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предоплата</value>
+    </synonym>
+    <comment>Предоплата</comment>
+  </enumValues>
+  <enumValues uuid="dbc8847c-dd8f-4125-979e-4ac0e88b16b6">
+    <name>Отсрочка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсрочка</value>
+    </synonym>
+    <comment>Отсрочка</comment>
+  </enumValues>
+</mdclass:Enum>

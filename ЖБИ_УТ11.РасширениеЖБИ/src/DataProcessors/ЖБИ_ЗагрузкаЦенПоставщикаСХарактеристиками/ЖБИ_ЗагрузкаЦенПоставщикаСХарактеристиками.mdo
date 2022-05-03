@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c401a3a7-adef-49a0-86a7-192059a16a5d">
+  <producedTypes>
+    <objectType typeId="521a028d-7132-4682-9eb2-121ab4040637" valueTypeId="2cf12fc0-669b-4c85-81d5-916202ce236b"/>
+    <managerType typeId="8ff94146-2b21-4eb7-ae22-b6515517631a" valueTypeId="829caaa7-ff04-475b-9126-75fa3344f482"/>
+  </producedTypes>
+  <name>ЖБИ_ЗагрузкаЦенПоставщикаСХарактеристиками</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Загрузка цен поставщиков</value>
+  </synonym>
+  <comment>ЖБИ - Загрузка цен поставщиков</comment>
+  <defaultForm>DataProcessor.ЖБИ_ЗагрузкаЦенПоставщикаСХарактеристиками.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="b66012fd-87a3-454d-a7f4-d7b40cb27991">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Существующий или потенциальный поставщик или конкурент предприятия, цены которого регистрируются.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.Конкурент</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.Поставщик</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <choiceParameters>
+      <name>УстанавливатьОтборПоТипуПартнераКакИЛИ</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+  </attributes>
+  <attributes uuid="370274ea-1c6c-421a-ae6e-09ae8c47b163">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольная строка комментария.</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ae0b8e3a-c7b0-4f95-aa09-a0c9d942c385">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="a771b9e2-6fb4-44e7-9a57-fb7e5d7d3235">
+    <producedTypes>
+      <objectType typeId="165ecd1f-12c1-45fa-ab29-efac243b89dd" valueTypeId="7f8b98ec-c1e7-4479-aebb-3d9abe0e510d"/>
+      <rowType typeId="b2c059c1-c3ee-41f0-8e81-f0901d5b60c9" valueTypeId="926e0ec9-2555-4376-bef8-d81daf92fa6b"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3055ef79-6211-4d59-8f5f-8cccfa464394">
+      <name>НоменклатураПоставщика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура поставщика</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.НоменклатураПоставщиков</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номенклатура поставщика или конкурента</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>DataProcessor.ЖБИ_ЗагрузкаЦенПоставщикаСХарактеристиками.Attribute.Партнер</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Отбор.Номенклатура</name>
+        <changeMode>DontChange</changeMode>
+        <field>DataProcessor.ЖБИ_ЗагрузкаЦенПоставщикаСХарактеристиками.TabularSection.Товары.Attribute.Номенклатура</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Отбор.Упаковка</name>
+        <changeMode>DontChange</changeMode>
+        <field>DataProcessor.ЖБИ_ЗагрузкаЦенПоставщикаСХарактеристиками.TabularSection.Товары.Attribute.Упаковка</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Отбор.Характеристика</name>
+        <changeMode>DontChange</changeMode>
+        <field>DataProcessor.ЖБИ_ЗагрузкаЦенПоставщикаСХарактеристиками.TabularSection.Товары.Attribute.Характеристика</field>
+      </choiceParameterLinks>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="540b0611-8080-4fa6-a0c6-b0556f2e17ca">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Необходимо выбрать номенклатуру с видом Товар или Услуга.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>НоменклатураПоставщика</name>
+        <changeMode>DontChange</changeMode>
+        <field>DataProcessor.ЖБИ_ЗагрузкаЦенПоставщикаСХарактеристиками.TabularSection.Товары.Attribute.НоменклатураПоставщика</field>
+      </choiceParameterLinks>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9a564778-6e32-44ca-b1ad-4fd7a1579a51">
+      <name>Характеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Если у выбранной номенклатуры используются характеристики, то необходимо выбрать характеристику номенклатуры.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Номенклатура</name>
+        <changeMode>DontChange</changeMode>
+        <field>DataProcessor.ЖБИ_ЗагрузкаЦенПоставщикаСХарактеристиками.TabularSection.Товары.Attribute.Номенклатура</field>
+      </choiceParameterLinks>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="204ce317-e692-4e01-9fe2-377eae1ddaf9">
+      <name>Упаковка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Упаковка</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Если у выбранной номенклатуры используются упаковки, то можно выбрать упаковку номенклатуры.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Номенклатура</name>
+        <changeMode>DontChange</changeMode>
+        <field>DataProcessor.ЖБИ_ЗагрузкаЦенПоставщикаСХарактеристиками.TabularSection.Товары.Attribute.Номенклатура</field>
+      </choiceParameterLinks>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f9781d21-6ba0-44d6-a0a4-c61fb180a8ea">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Старая цена</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Цена номенклатурной позиции.</value>
+      </toolTip>
+      <markNegatives>true</markNegatives>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f9fda4d1-d1a9-4b51-b98c-a5c90ddca239">
+      <name>ВидЦеныПоставщика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид цены поставщика</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыЦенПоставщиков</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вид цены поставщика, по которому фиксируются цены.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>DataProcessor.ЖБИ_ЗагрузкаЦенПоставщикаСХарактеристиками.Attribute.Партнер</field>
+      </choiceParameterLinks>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="fbe450b5-c67b-4e2c-aa51-77970d6a4d33">
+      <name>НоваяЦена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Цена номенклатурной позиции.</value>
+      </toolTip>
+      <markNegatives>true</markNegatives>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="8914e834-bc70-478a-b1cb-23345449d071">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ec02ba72-0eb0-4e54-91bd-5eb041a65240">
+    <name>ФормаВыбораВидовЦенПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора видов цен поставщика</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4b9104f6-8177-4fbb-9e8d-5703df62b5b8">
+    <name>ЗагрузкаЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка цен</value>
+    </synonym>
+  </templates>
+  <templates uuid="75308aad-247f-45c3-9ac0-7c97a8e74e47">
+    <name>ОбновлениеЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление цен</value>
+    </synonym>
+  </templates>
+  <commands uuid="afc393a5-9922-43c2-9299-f587c2ff7e20">
+    <name>КомандаЗагрузкаЦенПоставщикаСХарактеристиками</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖБИ - Загрузка цен поставщиков</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="35ff5eab-bbe3-4b9a-9414-4e60c3c4d52c">
+    <name>КомандаОбновлениеЦенПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖБИ - Обновление цен поставщика</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

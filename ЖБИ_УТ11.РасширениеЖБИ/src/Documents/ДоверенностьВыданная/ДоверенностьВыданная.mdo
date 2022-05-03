@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d52af081-991c-456a-97da-b6fe46f25a28" extendedConfigurationObject="ac063c75-89dc-4887-b5a8-d36c32573ef7">
+  <producedTypes>
+    <objectType typeId="001168c7-9a8a-40f8-9b95-3077b11c55a1" valueTypeId="6d33fe15-3f00-4086-a20f-1d34ee86b09f"/>
+    <refType typeId="e39a0dac-7e77-47f8-a573-968bdf449e74" valueTypeId="765bb82c-2400-4f5a-8d92-916155d7c2d3"/>
+    <selectionType typeId="18f532d0-858d-48be-afb2-d917b9bf02fe" valueTypeId="a6895a66-3612-4325-93b1-0766c2cc0672"/>
+    <listType typeId="ab69e666-523f-4b6c-9a73-781040417cd5" valueTypeId="40ebe541-5b7b-491f-a011-f8c66374f6ac"/>
+    <managerType typeId="23589524-66d0-4d81-82d1-9ce199b49d59" valueTypeId="82cc632c-24a0-4f4a-bbe3-f9e424ab8ef7"/>
+  </producedTypes>
+  <name>ДоверенностьВыданная</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <templates uuid="c6914e01-c089-4437-9442-36a8359e07fb">
+    <name>ЖБИ_ДоверенностьМ2</name>
+    <synonym>
+      <key>ru</key>
+      <value>М-2</value>
+    </synonym>
+    <comment>Доверенность (унифицированная форма № М-2)</comment>
+  </templates>
+</mdclass:Document>

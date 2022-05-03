@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78cea34b-30d6-438d-8b05-6be535abc3cd">
+  <producedTypes>
+    <refType typeId="d6fd3a8c-142c-436e-a0be-c091411c3544" valueTypeId="77233bb7-de86-4fae-9ce1-6ca3d4c3beec"/>
+    <listType typeId="b035a373-2c5d-4b1f-af9a-e2841bf454a5" valueTypeId="160a2fed-ba6f-453b-85b9-0b5b3546c797"/>
+    <managerType typeId="eb792bdf-676a-49ae-961b-0eb7b6d58fc7" valueTypeId="8475677e-f4db-456b-83eb-f7c8a73ccb18"/>
+  </producedTypes>
+  <name>ЖБИ_СпособОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Способ обмена</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e250d1e1-c503-4d64-93ef-ad841f6966b0">
+    <name>FTP</name>
+    <synonym>
+      <key>ru</key>
+      <value>FTP</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

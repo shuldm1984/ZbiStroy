@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b86db43-5d5b-483f-909a-6532f45786c3">
+  <producedTypes>
+    <refType typeId="d160429a-c67e-4f3e-a4e8-dcaa9f8ddcf5" valueTypeId="4ebcd168-8c2d-43dd-9b2a-a38050f48501"/>
+    <listType typeId="ad3f3714-2baf-4dc0-9531-09a37f9b90cd" valueTypeId="4d0b0a5d-03ed-40c1-80f2-05188c977172"/>
+    <managerType typeId="497dbe1f-4064-48b5-aa9a-554c97a8d6bb" valueTypeId="3c755dac-a676-41af-aa17-61ec24bd0387"/>
+  </producedTypes>
+  <name>ЖБИ_ВидыСтавок</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Виды ставок</value>
+  </synonym>
+  <comment>ЖБИ - Виды ставок</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>ЖБИ - Виды ставок</value>
+  </listPresentation>
+  <enumValues uuid="e9b3e3e9-54fb-41fa-a6a2-a6eaa19d9807">
+    <name>Плановая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановая</value>
+    </synonym>
+    <comment>Плановая</comment>
+  </enumValues>
+  <enumValues uuid="ca4c86ec-b806-409e-b90b-a6b4a349c18a">
+    <name>Фактическая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фактическая</value>
+    </synonym>
+    <comment>Фактическая</comment>
+  </enumValues>
+</mdclass:Enum>

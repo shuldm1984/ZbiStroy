@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99d25073-b2b6-481c-b4fe-b1b2f561ae39">
+  <producedTypes>
+    <selectionType typeId="4c2e29c0-d72b-4546-8613-42b34518a158" valueTypeId="8a23396e-7269-4c15-b747-42e50bf5b3a9"/>
+    <listType typeId="df39336d-e44d-4a20-896b-2705127aaaf5" valueTypeId="e5b60040-8444-43d4-a874-007a23e73f65"/>
+    <managerType typeId="472e39cf-187e-4888-a64d-c1a0e1a43204" valueTypeId="6c3b5965-d074-4b32-8c83-363bfa99a25b"/>
+    <recordSetType typeId="8a764d9d-902a-4120-8e3e-21fcbda4a5cc" valueTypeId="3e0391d0-3700-4a76-925a-466a0be94d4e"/>
+    <recordKeyType typeId="8a217308-e176-4f76-9ce1-04b8f9d2148a" valueTypeId="e968633f-afd4-48ac-9a58-99f1e8476336"/>
+    <recordType typeId="5b7b10ea-b5bf-43e1-babf-c35d38411589" valueTypeId="574dcf3b-e8cb-457d-a8be-fab38d726de6"/>
+  </producedTypes>
+  <name>ЖБИ_ДополнительныеРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖБИ - Доп. расходы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="2830a1de-d45a-43ce-927e-cf457020bf93">
+    <name>ДопЗатратыНаМатериалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп. затраты на материалы на 1 рейс с НДС</value>
+    </synonym>
+    <comment>Доп. затр. на материалы</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сумма для номенклатуры</value>
+    </toolTip>
+    <markNegatives>true</markNegatives>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="30a2fb1d-5d1f-47d1-bcb6-46dd82b21ac0">
+    <name>ДопРасходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп. расходы за 1 рейс</value>
+    </synonym>
+    <comment>Доп. расходы</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сумма для номенклатуры</value>
+    </toolTip>
+    <markNegatives>true</markNegatives>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="fa97b2e9-5f80-4691-bc6d-27970ac54d14">
+    <name>ДопЗатратыНаХвост</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп. затр. на хвост</value>
+    </synonym>
+    <comment>Доп. затр. на хвост</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сумма для номенклатуры</value>
+    </toolTip>
+    <markNegatives>true</markNegatives>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="e55f16bc-671f-4192-9ff0-1c5ce52bbda8">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация, от имени которой оформлена операция.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="9c387564-49dd-4bec-89a1-eec919c3e18b">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подразделение, по которому отражена операция.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6e3fc798-743a-4799-9c77-ca62202e3322">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <comment>Партнер</comment>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="90877192-450a-43d1-8d1a-46c3f8086bed">
+    <name>ЗаявкаПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка покупателя</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЖБИ_ЗаявкиПокупателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
